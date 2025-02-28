@@ -1,0 +1,199 @@
+{
+	"info": {
+		"_postman_id": "3dace543-948d-4cd1-a9c3-7ae555c7dacc",
+		"name": "Kushki_Flujo_de_Pago",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42697655"
+	},
+	"item": [
+		{
+			"name": "Request Card Token",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Public-Merchant-Id",
+						"value": "b570374fa1c246da80a6fa7755b83457",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"card\": {\n    \"name\": \"Senen Rodrìguez\",\n    \"number\": \"5451951574925480\",\n    \"expiryMonth\": \"05\",\n    \"expiryYear\": \"28\",\n    \"cvv\": \"789\"\n  },\n  \"totalAmount\": 3000,\n  \"currency\": \"MXN\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api-uat.kushkipagos.com/card/v1/tokens",
+					"protocol": "https",
+					"host": [
+						"api-uat",
+						"kushkipagos",
+						"com"
+					],
+					"path": [
+						"card",
+						"v1",
+						"tokens"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Make a charge",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Private-Merchant-Id",
+						"value": "d6cf451bcde84abdb72f3aa21951cdc2",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"token\": \"5ba78c3eeec84c21bbc429cc8abe15f4\", //Es el token previamente creado en Request Card Token\n  \"amount\": {\n    \"subtotalIva\": 0,\n    \"subtotalIva0\": 3000,\n    \"ice\": 0,\n    \"iva\": 0,\n    \"currency\": \"MXN\"\n  },\n  \"metadata\": {\n    \"Referencia\": \"12345678\"\n  },\n  \"contactDetails\": {\n    \"documentType\": \"CC\",\n    \"documentNumber\": \"1234567890\",\n    \"email\": \"senen.rodriguez@example.com\",\n    \"firstName\": \"Senen\",\n    \"lastName\": \"Rodriguez\",\n    \"phoneNumber\": \"+5530586988\"\n  },\n  \"orderDetails\": {\n    \"siteDomain\": \"senen.com\",\n    \"shippingDetails\": {\n      \"name\": \"John Doe\",\n      \"phone\": \"+593912345678\",\n      \"address1\": \"Eloy Alfaro 139 y Catalina Aldaz\",\n      \"address2\": \"centro 123\",\n      \"city\": \"Quito\",\n      \"region\": \"Pichincha\",\n      \"country\": \"Ecuador\"\n    },\n    \"billingDetails\": {\n      \"name\": \"John Doe\",\n      \"phone\": \"+593912345678\",\n      \"address1\": \"Eloy Alfaro 139 y Catalina Aldaz\",\n      \"address2\": \"centro 123\",\n      \"city\": \"Quito\",\n      \"region\": \"Pichincha\",\n      \"country\": \"Ecuador\"\n    }\n  },\n  \"productDetails\": {\n    \"product\": [\n      {\n        \"id\": \"198952AB\",\n        \"title\": \"eBook Digital Services\",\n        \"price\": 1500,\n        \"sku\": \"10101042\",\n        \"quantity\": 1\n      },\n      {\n        \"id\": \"198953AB\",\n        \"title\": \"eBook Virtual Selling\",\n        \"price\": 1500,\n        \"sku\": \"004834GQ\",\n        \"quantity\": 1\n      }\n    ]\n  },\n  \"fullResponse\": \"v2\" //Para ver la respuesta sin detalle, solo con ticketNumber y transactionReference comentantamos esta línea\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api-uat.kushkipagos.com/card/v1/charges",
+					"protocol": "https",
+					"host": [
+						"api-uat",
+						"kushkipagos",
+						"com"
+					],
+					"path": [
+						"card",
+						"v1",
+						"charges"
+					],
+					"query": [
+						{
+							"key": "Public-Merchant-Id",
+							"value": "b570374fa1c246da80a6fa7755b83457",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Void a transaction",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Private-Merchant-Id",
+						"value": "d6cf451bcde84abdb72f3aa21951cdc2",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"fullResponse\": \"v2\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api-uat.kushkipagos.com/v1/charges/041239870399516230",
+					"protocol": "https",
+					"host": [
+						"api-uat",
+						"kushkipagos",
+						"com"
+					],
+					"path": [
+						"v1",
+						"charges",
+						"041239870399516230"
+					],
+					"query": [
+						{
+							"key": "ticketNumber",
+							"value": "041239870399516230",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Transactions-list",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Private-Merchant-Id",
+						"value": "d6cf451bcde84abdb72f3aa21951cdc2",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api-uat.kushkipagos.com/analytics/v1/transactions-list?from=2025-02-27T00:00:00.836&to=2025-02-28T23:59:00.836",
+					"protocol": "https",
+					"host": [
+						"api-uat",
+						"kushkipagos",
+						"com"
+					],
+					"path": [
+						"analytics",
+						"v1",
+						"transactions-list"
+					],
+					"query": [
+						{
+							"key": "from",
+							"value": "2025-02-27T00:00:00.836"
+						},
+						{
+							"key": "to",
+							"value": "2025-02-28T23:59:00.836"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
