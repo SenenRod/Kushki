@@ -1,8 +1,1632 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2513
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\margl1440\margr1440\vieww10800\viewh8400\viewkind0
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
-
-\f0\fs24 \cf0 \{"total":15,"data":[\{"amount":\{"subtotalIva0":16.98,"iva":0,"subtotalIva":0,"ice":0,"currency":"MXN"\},"approved_transaction_amount":0,"bin_card":"545195","card_holder_name":"Senen Rodrguez","card_type":"Credit","constitutional_country":"Mexico","contact_details":\{"document_number":"1234567890","document_type":"CC","email":"senen.rodriguez@example.com","first_name":"Senen","last_name":"Rodriguez","phone_number":"+593912345678"\},"country":"Mexico","created":"2025-02-27T20:24:43.000Z","credential_alias":"CAJITA PRUEBA Branch Mexico","credential_id":"3dc1976fa6da467795754085ab44c9ee","currency_code":"MXN","foreign_card":true,"ice_value":0,"issuing_bank":"Banco de la Produccion S.A. (PRODUBANCO)","iva_value":0,"last_four_digits":"5480","merchant_id":"20000000104925987000","merchant_name":"CAJITA PRUEBA Branch Mexico","metadata":\{"Referencia":"987654"\},"payment_brand":"Mastercard","plcc":false,"processor_type":"aggregator_formal","public_credential_id":"b570374fa1c246da80a6fa7755b83457","request_amount":16.98,"response_code":"K220","response_text":"Monto de la transaccion es diferente al monto de la venta inicial","send_cvv":true,"subtotal_iva":0,"subtotal_iva0":16.98,"sync_mode":"online","transaction_id":"1740687883975387763","transaction_reference":"cfd76961-f249-4024-886c-ea88b9e6850a","transaction_status":"DECLINED","transaction_type":"SALE","transaction_card_id":"6420c5bd-5a3f-45d2-8ac4-88de7b09958d","card_country_code":"EC","card_country":"Ecuador","original_bin":"54519515","processor_code":"","payment_method":"card","social_reason":"","merchant_category":"","tax_id":"","masked_credit_card":"545195XXXXXX5480","security":\{"ip":"187.190.193.106","reason_code":""\},"string_metadata":"\{\\"Referencia\\":\\"987654\\"\}","order_details":\{"billing_details":\{"address1":"Eloy Alfaro 139 y Catalina Aldaz","address2":"centro 123","city":"Quito","country":"Ecuador","name":"John Doe","phone":"+593912345678","region":"Pichincha"\},"shipping_details":\{"address1":"Eloy Alfaro 139 y Catalina Aldaz","address2":"centro 123","city":"Quito","country":"Ecuador","name":"John Doe","phone":"+593912345678","region":"Pichincha"\},"site_domain":"example.com"\},"product_details":\{"product":[\{"id":"198952AB","price":10000,"quantity":1,"sku":"10101042","title":"eBook Digital Services"\},\{"id":"198953AB","price":6980,"quantity":1,"sku":"004834GQ","title":"eBook Virtual Selling"\}]\}\},\{"amount":\{"subtotalIva0":16.98,"iva":0,"subtotalIva":0,"ice":0,"currency":"MXN"\},"approved_transaction_amount":0,"bin_card":"545195","card_holder_name":"Senen Rodrguez","card_type":"Credit","constitutional_country":"Mexico","contact_details":\{"document_number":"1234567890","document_type":"CC","email":"senen.rodriguez@example.com","first_name":"Senen","last_name":"Rodriguez","phone_number":"+593912345678"\},"country":"Mexico","created":"2025-02-27T20:25:39.000Z","credential_alias":"CAJITA PRUEBA Branch Mexico","credential_id":"3dc1976fa6da467795754085ab44c9ee","currency_code":"MXN","foreign_card":true,"ice_value":0,"issuing_bank":"Banco de la Produccion S.A. (PRODUBANCO)","iva_value":0,"last_four_digits":"5480","merchant_id":"20000000104925987000","merchant_name":"CAJITA PRUEBA Branch Mexico","metadata":\{"Referencia":"987654"\},"payment_brand":"Mastercard","plcc":false,"processor":\{"code":"566","message":"El token es invalido , o ya fue usado en otra transaccion."\},"processor_type":"aggregator_formal","public_credential_id":"b570374fa1c246da80a6fa7755b83457","request_amount":16.98,"response_code":"577","response_text":"El token de la transaccion no es valido","send_cvv":true,"subtotal_iva":0,"subtotal_iva0":16.98,"sync_mode":"online","transaction_id":"1740687939656699376","transaction_reference":"cfd76961-f249-4024-886c-ea88b9e6850a","transaction_status":"DECLINED","transaction_type":"SALE","transaction_card_id":"6420c5bd-5a3f-45d2-8ac4-88de7b09958d","card_country_code":"EC","card_country":"Ecuador","original_bin":"54519515","processor_code":"577","payment_method":"card","social_reason":"","merchant_category":"","tax_id":"","masked_credit_card":"545195XXXXXX5480","security":\{"ip":"187.190.193.106","reason_code":""\},"string_metadata":"\{\\"Referencia\\":\\"987654\\"\}","order_details":\{"billing_details":\{"address1":"Eloy Alfaro 139 y Catalina Aldaz","address2":"centro 123","city":"Quito","country":"Ecuador","name":"John Doe","phone":"+593912345678","region":"Pichincha"\},"shipping_details":\{"address1":"Eloy Alfaro 139 y Catalina Aldaz","address2":"centro 123","city":"Quito","country":"Ecuador","name":"John Doe","phone":"+593912345678","region":"Pichincha"\},"site_domain":"example.com"\},"product_details":\{"product":[\{"id":"198952AB","price":1000,"quantity":1,"sku":"10101042","title":"eBook Digital Services"\},\{"id":"198953AB","price":6980,"quantity":1,"sku":"004834GQ","title":"eBook Virtual Selling"\}]\}\},\{"amount":\{"subtotalIva0":16.98,"iva":0,"subtotalIva":0,"ice":0,"currency":"MXN"\},"approved_transaction_amount":0,"bin_card":"545195","card_holder_name":"Senen Rodrguez","card_type":"Credit","constitutional_country":"Mexico","contact_details":\{"document_number":"1234567890","document_type":"CC","email":"senen.rodriguez@example.com","first_name":"Senen","last_name":"Rodriguez","phone_number":"+593912345678"\},"country":"Mexico","created":"2025-02-27T20:26:07.000Z","credential_alias":"CAJITA PRUEBA Branch Mexico","credential_id":"3dc1976fa6da467795754085ab44c9ee","currency_code":"MXN","foreign_card":true,"ice_value":0,"issuing_bank":"Banco de la Produccion S.A. (PRODUBANCO)","iva_value":0,"last_four_digits":"5480","merchant_id":"20000000104925987000","merchant_name":"CAJITA PRUEBA Branch Mexico","metadata":\{"Referencia":"987654"\},"payment_brand":"Mastercard","plcc":false,"processor_type":"aggregator_formal","public_credential_id":"b570374fa1c246da80a6fa7755b83457","request_amount":16.98,"response_code":"K220","response_text":"Monto de la transaccion es diferente al monto de la venta inicial","send_cvv":true,"subtotal_iva":0,"subtotal_iva0":16.98,"sync_mode":"online","transaction_id":"1740687967298476869","transaction_reference":"6c999b4f-ef38-4a97-a37d-ed317f02233f","transaction_status":"DECLINED","transaction_type":"SALE","transaction_card_id":"6420c5bd-5a3f-45d2-8ac4-88de7b09958d","card_country_code":"EC","card_country":"Ecuador","original_bin":"54519515","processor_code":"","payment_method":"card","social_reason":"","merchant_category":"","tax_id":"","masked_credit_card":"545195XXXXXX5480","security":\{"ip":"187.190.193.106","reason_code":""\},"string_metadata":"\{\\"Referencia\\":\\"987654\\"\}","order_details":\{"billing_details":\{"address1":"Eloy Alfaro 139 y Catalina Aldaz","address2":"centro 123","city":"Quito","country":"Ecuador","name":"John Doe","phone":"+593912345678","region":"Pichincha"\},"shipping_details":\{"address1":"Eloy Alfaro 139 y Catalina Aldaz","address2":"centro 123","city":"Quito","country":"Ecuador","name":"John Doe","phone":"+593912345678","region":"Pichincha"\},"site_domain":"example.com"\},"product_details":\{"product":[\{"id":"198952AB","price":1000,"quantity":1,"sku":"10101042","title":"eBook Digital Services"\},\{"id":"198953AB","price":6980,"quantity":1,"sku":"004834GQ","title":"eBook Virtual Selling"\}]\}\},\{"amount":\{"subtotalIva0":16.98,"iva":0,"subtotalIva":0,"ice":0,"currency":"MXN"\},"approved_transaction_amount":0,"bin_card":"545195","card_holder_name":"Senen Rodrguez","card_type":"Credit","constitutional_country":"Mexico","contact_details":\{"document_number":"1234567890","document_type":"CC","email":"senen.rodriguez@example.com","first_name":"Senen","last_name":"Rodriguez","phone_number":"+593912345678"\},"country":"Mexico","created":"2025-02-27T20:27:01.000Z","credential_alias":"CAJITA PRUEBA Branch Mexico","credential_id":"3dc1976fa6da467795754085ab44c9ee","currency_code":"MXN","foreign_card":true,"ice_value":0,"issuing_bank":"Banco de la Produccion S.A. (PRODUBANCO)","iva_value":0,"last_four_digits":"5480","merchant_id":"20000000104925987000","merchant_name":"CAJITA PRUEBA Branch Mexico","metadata":\{"Referencia":"987654"\},"payment_brand":"Mastercard","plcc":false,"processor":\{"code":"566","message":"El token es invalido , o ya fue usado en otra transaccion."\},"processor_type":"aggregator_formal","public_credential_id":"b570374fa1c246da80a6fa7755b83457","request_amount":16.98,"response_code":"577","response_text":"El token de la transaccion no es valido","send_cvv":true,"subtotal_iva":0,"subtotal_iva0":16.98,"sync_mode":"online","transaction_id":"1740688021884815150","transaction_reference":"6c999b4f-ef38-4a97-a37d-ed317f02233f","transaction_status":"DECLINED","transaction_type":"SALE","transaction_card_id":"6420c5bd-5a3f-45d2-8ac4-88de7b09958d","card_country_code":"EC","card_country":"Ecuador","original_bin":"54519515","processor_code":"577","payment_method":"card","social_reason":"","merchant_category":"","tax_id":"","masked_credit_card":"545195XXXXXX5480","security":\{"ip":"187.190.193.106","reason_code":""\},"string_metadata":"\{\\"Referencia\\":\\"987654\\"\}","order_details":\{"billing_details":\{"address1":"Eloy Alfaro 139 y Catalina Aldaz","address2":"centro 123","city":"Quito","country":"Ecuador","name":"John Doe","phone":"+593912345678","region":"Pichincha"\},"shipping_details":\{"address1":"Eloy Alfaro 139 y Catalina Aldaz","address2":"centro 123","city":"Quito","country":"Ecuador","name":"John Doe","phone":"+593912345678","region":"Pichincha"\},"site_domain":"example.com"\},"product_details":\{"product":[\{"id":"198952AB","price":1000,"quantity":1,"sku":"10101042","title":"eBook Digital Services"\},\{"id":"198953AB","price":1000,"quantity":1,"sku":"004834GQ","title":"eBook Virtual Selling"\}]\}\},\{"amount":\{"subtotalIva0":16.98,"iva":0,"subtotalIva":0,"ice":0,"currency":"MXN"\},"approved_transaction_amount":0,"bin_card":"545195","card_holder_name":"Senen Rodrguez","card_type":"Credit","constitutional_country":"Mexico","contact_details":\{"document_number":"1234567890","document_type":"CC","email":"senen.rodriguez@example.com","first_name":"Senen","last_name":"Rodriguez","phone_number":"+593912345678"\},"country":"Mexico","created":"2025-02-27T20:27:32.000Z","credential_alias":"CAJITA PRUEBA Branch Mexico","credential_id":"3dc1976fa6da467795754085ab44c9ee","currency_code":"MXN","foreign_card":true,"ice_value":0,"issuing_bank":"Banco de la Produccion S.A. (PRODUBANCO)","iva_value":0,"last_four_digits":"5480","merchant_id":"20000000104925987000","merchant_name":"CAJITA PRUEBA Branch Mexico","metadata":\{"Referencia":"987654"\},"payment_brand":"Mastercard","plcc":false,"processor_type":"aggregator_formal","public_credential_id":"b570374fa1c246da80a6fa7755b83457","request_amount":16.98,"response_code":"K220","response_text":"Monto de la transaccion es diferente al monto de la venta inicial","send_cvv":true,"subtotal_iva":0,"subtotal_iva0":16.98,"sync_mode":"online","transaction_id":"1740688052722233402","transaction_reference":"fc17e9bc-0829-4944-89c7-f4325106b362","transaction_status":"DECLINED","transaction_type":"SALE","transaction_card_id":"6420c5bd-5a3f-45d2-8ac4-88de7b09958d","card_country_code":"EC","card_country":"Ecuador","original_bin":"54519515","processor_code":"","payment_method":"card","social_reason":"","merchant_category":"","tax_id":"","masked_credit_card":"545195XXXXXX5480","security":\{"ip":"187.190.193.106","reason_code":""\},"string_metadata":"\{\\"Referencia\\":\\"987654\\"\}","order_details":\{"billing_details":\{"address1":"Eloy Alfaro 139 y Catalina Aldaz","address2":"centro 123","city":"Quito","country":"Ecuador","name":"John Doe","phone":"+593912345678","region":"Pichincha"\},"shipping_details":\{"address1":"Eloy Alfaro 139 y Catalina Aldaz","address2":"centro 123","city":"Quito","country":"Ecuador","name":"John Doe","phone":"+593912345678","region":"Pichincha"\},"site_domain":"example.com"\},"product_details":\{"product":[\{"id":"198952AB","price":1000,"quantity":1,"sku":"10101042","title":"eBook Digital Services"\},\{"id":"198953AB","price":1000,"quantity":1,"sku":"004834GQ","title":"eBook Virtual Selling"\}]\}\},\{"acquirer_bank":"Afirme","amount":\{"subtotalIva0":2000,"iva":0,"subtotalIva":0,"ice":0,"currency":"MXN"\},"approval_code":"000000","approved_transaction_amount":2000,"bin_card":"545195","card_holder_name":"Senen Rodrguez","card_type":"Credit","constitutional_country":"Mexico","contact_details":\{"document_number":"1234567890","document_type":"CC","email":"senen.rodriguez@example.com","first_name":"Senen","last_name":"Rodriguez","phone_number":"+593912345678"\},"country":"Mexico","created":"2025-02-27T20:28:06.000Z","credential_alias":"CAJITA PRUEBA Branch Mexico","credential_id":"3dc1976fa6da467795754085ab44c9ee","currency_code":"MXN","foreign_card":true,"ice_value":0,"issuing_bank":"Banco de la Produccion S.A. (PRODUBANCO)","iva_value":0,"last_four_digits":"5480","mcc_code":"1234","merchant_id":"20000000104925987000","merchant_name":"CAJITA PRUEBA Branch Mexico","metadata":\{"Referencia":"987654"\},"payment_brand":"Mastercard","plcc":false,"processor_bank_name":"0032~BANCO INTERNACIONAL","processor_id":"6000000000174068248858249493","processor_name":"Prosa Processor","processor_type":"gateway","public_credential_id":"b570374fa1c246da80a6fa7755b83457","request_amount":2000,"response_code":"000","response_text":"Transaccion aprobada","send_cvv":true,"subtotal_iva":0,"subtotal_iva0":2000,"sync_mode":"online","ticket_number":"777577273809074073","transaction_id":"056664394382939562","transaction_reference":"189f202a-39ad-4400-8034-bce188c8464d","transaction_status":"APPROVAL","transaction_type":"SALE","transaction_card_id":"6420c5bd-5a3f-45d2-8ac4-88de7b09958d","card_country_code":"EC","card_country":"Ecuador","original_bin":"54519515","processor_code":"","payment_method":"card","social_reason":"","merchant_category":"","tax_id":"","masked_credit_card":"545195XXXXXX5480","security":\{"ip":"187.190.193.106","reason_code":"","user_agent":"PostmanRuntime/7.43.0","whitelist":false\},"string_metadata":"\{\\"Referencia\\":\\"987654\\"\}","order_details":\{"billing_details":\{"address1":"Eloy Alfaro 139 y Catalina Aldaz","address2":"centro 123","city":"Quito","country":"Ecuador","name":"John Doe","phone":"+593912345678","region":"Pichincha"\},"shipping_details":\{"address1":"Eloy Alfaro 139 y Catalina Aldaz","address2":"centro 123","city":"Quito","country":"Ecuador","name":"John Doe","phone":"+593912345678","region":"Pichincha"\},"site_domain":"example.com"\},"product_details":\{"product":[\{"id":"198952AB","price":1000,"quantity":1,"sku":"10101042","title":"eBook Digital Services"\},\{"id":"198953AB","price":1000,"quantity":1,"sku":"004834GQ","title":"eBook Virtual Selling"\}]\}\},\{"amount":\{"subtotalIva0":2000,"iva":0,"subtotalIva":0,"ice":0,"currency":"MXN"\},"approved_transaction_amount":0,"bin_card":"545195","card_holder_name":"Senen Rodrguez","card_type":"Credit","constitutional_country":"Mexico","contact_details":\{"document_number":"1234567890","document_type":"CC","email":"senen.rodriguez@example.com","first_name":"Senen","last_name":"Rodriguez","phone_number":"+593912345678"\},"country":"Mexico","created":"2025-02-27T20:32:41.000Z","credential_alias":"CAJITA PRUEBA Branch Mexico","credential_id":"3dc1976fa6da467795754085ab44c9ee","currency_code":"MXN","foreign_card":true,"ice_value":0,"issuing_bank":"Banco de la Produccion S.A. (PRODUBANCO)","iva_value":0,"last_four_digits":"5480","merchant_id":"20000000104925987000","merchant_name":"CAJITA PRUEBA Branch Mexico","metadata":\{"Referencia":"987654"\},"payment_brand":"Mastercard","plcc":false,"processor":\{"code":"566","message":"El token es invalido , o ya fue usado en otra transaccion."\},"processor_type":"aggregator_formal","public_credential_id":"b570374fa1c246da80a6fa7755b83457","request_amount":2000,"response_code":"577","response_text":"El token de la transaccion no es valido","send_cvv":true,"subtotal_iva":0,"subtotal_iva0":2000,"sync_mode":"online","transaction_id":"1740688361964558113","transaction_reference":"189f202a-39ad-4400-8034-bce188c8464d","transaction_status":"DECLINED","transaction_type":"SALE","transaction_card_id":"6420c5bd-5a3f-45d2-8ac4-88de7b09958d","card_country_code":"EC","card_country":"Ecuador","original_bin":"54519515","processor_code":"577","payment_method":"card","social_reason":"","merchant_category":"","tax_id":"","masked_credit_card":"545195XXXXXX5480","security":\{"ip":"187.190.193.106","reason_code":""\},"string_metadata":"\{\\"Referencia\\":\\"987654\\"\}","order_details":\{"billing_details":\{"address1":"Eloy Alfaro 139 y Catalina Aldaz","address2":"centro 123","city":"Quito","country":"Ecuador","name":"John Doe","phone":"+593912345678","region":"Pichincha"\},"shipping_details":\{"address1":"Eloy Alfaro 139 y Catalina Aldaz","address2":"centro 123","city":"Quito","country":"Ecuador","name":"John Doe","phone":"+593912345678","region":"Pichincha"\},"site_domain":"example.com"\},"product_details":\{"product":[\{"id":"198952AB","price":1000,"quantity":1,"sku":"10101042","title":"eBook Digital Services"\},\{"id":"198953AB","price":1000,"quantity":1,"sku":"004834GQ","title":"eBook Virtual Selling"\}]\}\},\{"acquirer_bank":"Afirme","amount":\{"subtotalIva0":2000,"iva":0,"subtotalIva":0,"ice":0,"currency":"MXN"\},"approval_code":"000000","approved_transaction_amount":2000,"bin_card":"545195","card_holder_name":"Senen Rodrguez","card_type":"Credit","constitutional_country":"Mexico","contact_details":\{"document_number":"1234567890","document_type":"CC","email":"senen.rodriguez@example.com","first_name":"Senen","last_name":"Rodriguez","phone_number":"+593912345678"\},"country":"Mexico","created":"2025-02-27T20:33:31.000Z","credential_alias":"CAJITA PRUEBA Branch Mexico","credential_id":"3dc1976fa6da467795754085ab44c9ee","currency_code":"MXN","foreign_card":true,"ice_value":0,"issuing_bank":"Banco de la Produccion S.A. (PRODUBANCO)","iva_value":0,"last_four_digits":"5480","mcc_code":"1234","merchant_id":"20000000104925987000","merchant_name":"CAJITA PRUEBA Branch Mexico","metadata":\{"Referencia":"987654"\},"payment_brand":"Mastercard","plcc":false,"processor_bank_name":"0032~BANCO INTERNACIONAL","processor_id":"6000000000174068248858249493","processor_name":"Prosa Processor","processor_type":"gateway","public_credential_id":"b570374fa1c246da80a6fa7755b83457","request_amount":2000,"response_code":"000","response_text":"Transaccion aprobada","send_cvv":true,"subtotal_iva":0,"subtotal_iva0":2000,"sync_mode":"online","ticket_number":"519032825060630898","transaction_id":"589040667867670762","transaction_reference":"4cec7785-2607-46e5-9cb2-4739cdb8aeb4","transaction_status":"APPROVAL","transaction_type":"SALE","transaction_card_id":"6420c5bd-5a3f-45d2-8ac4-88de7b09958d","card_country_code":"EC","card_country":"Ecuador","original_bin":"54519515","processor_code":"","payment_method":"card","social_reason":"","merchant_category":"","tax_id":"","masked_credit_card":"545195XXXXXX5480","security":\{"ip":"187.190.193.106","reason_code":"","user_agent":"PostmanRuntime/7.43.0","whitelist":false\},"string_metadata":"\{\\"Referencia\\":\\"987654\\"\}","order_details":\{"billing_details":\{"address1":"Eloy Alfaro 139 y Catalina Aldaz","address2":"centro 123","city":"Quito","country":"Ecuador","name":"John Doe","phone":"+593912345678","region":"Pichincha"\},"shipping_details":\{"address1":"Eloy Alfaro 139 y Catalina Aldaz","address2":"centro 123","city":"Quito","country":"Ecuador","name":"John Doe","phone":"+593912345678","region":"Pichincha"\},"site_domain":"example.com"\},"product_details":\{"product":[\{"id":"198952AB","price":1000,"quantity":1,"sku":"10101042","title":"eBook Digital Services"\},\{"id":"198953AB","price":1000,"quantity":1,"sku":"004834GQ","title":"eBook Virtual Selling"\}]\}\},\{"ice_value":0,"iva_value":0,"subtotal_iva":0,"subtotal_iva0":2000,"approved_transaction_amount":2000,"bin_card":"545195","card_country_code":"EC","card_country":"Ecuador","card_holder_name":"Senen Rodrguez","card_type":"Credit","consortium_name":null,"contact_person":"Senen Rodriguez Maldonado","country":"Mexico","created":"2025-02-27T20:43:43.352Z","credential_alias":"CAJITA PRUEBA Branch Mexico","credential_id":"3dc1976fa6da467795754085ab44c9ee","credential_metadata":null,"currency_code":"MXN","email":"senen.rodriguez@outlook.com","foreign_card":true,"last_four_digits":"5480","mcc_code":"1234","merchant_id":"20000000104925987000","merchant_name":"CAJITA PRUEBA Branch Mexico","metadata":\{"Referencia":"987654"\},"nit":"PRUEBA123457","partial_void":false,"payment_brand":"Mastercard","processor_bank_name":null,"processor_id":"6000000000174068248858249493","processor_merchant_id":"7133263","processor_name":"Prosa Processor","processor_type":"gateway","public_credential_id":"b570374fa1c246da80a6fa7755b83457","request_amount":2000,"response_code":"000","response_text":"Transacci\'f3n aprobada","sale_approval_code":"000000","sale_ticket_number":"519032825060630898","sale_transaction_type":"SALE","social_reason":null,"sync_mode":"online","tax_id":null,"terminal_id":"20390058","ticket_number":"661740689022346881","transaction_id":"589040667867670762","transaction_reference":"c3d6ac43-d7dc-493e-8f4d-d560f1aa04bd","transaction_status":"APPROVAL","transaction_type":"VOID","unique_code":null,"visibility":"visible","payment_method":"card","merchant_category":"","masked_credit_card":"545195XXXXXX5480","transaction_card_id":"","historical":[\{"country":"Mexico","public_credential_id":"b570374fa1c246da80a6fa7755b83457","subtotal_iva":0,"card_country":"Ecuador","nit":"PRUEBA123457","processor_name":"Prosa Processor","response_text":"Transacci\'f3n aprobada","sale_ticket_number":"519032825060630898","transaction_reference":"55187ed4-af51-453f-82a2-e02b925561ee","mcc_code":"1234","unique_code":null,"payment_method":"card","terminal_id":"20390058","transaction_id":"1740689022340891656","visibility":"visible","created":"2025-02-27T20:43:42.641Z","iva_value":0,"sale_approval_code":"000000","merchant_name":"CAJITA PRUEBA Branch Mexico","sale_transaction_type":"SALE","transaction_type":"VOID","tax_id":null,"sync_mode":"online","credential_metadata":null,"subtotal_iva0":2000,"processor_type":"gateway","response_code":"000","transaction_status":"INITIALIZED","social_reason":null,"card_holder_name":"Senen Rodrguez","payment_brand":"Mastercard","request_amount":2000,"processor_merchant_id":"7133263","merchant_id":"20000000104925987000","approved_transaction_amount":2000,"merchant_category":"","currency_code":"MXN","transaction_card_id":"","masked_credit_card":"545195XXXXXX5480","processor_id":"6000000000174068248858249493","foreign_card":true,"last_four_digits":"5480","email":"senen.rodriguez@outlook.com","contact_person":"Senen Rodriguez Maldonado","consortium_name":null,"card_type":"Credit","ticket_number":"661740689022346881","card_country_code":"EC","credential_alias":"CAJITA PRUEBA Branch Mexico","processor_bank_name":"0032~BANCO INTERNACIONAL","bin_card":"545195","ice_value":0,"partial_void":false,"credential_id":"3dc1976fa6da467795754085ab44c9ee"\}],"void_ticket_number":"661740689022346881","aurus_ticket_number":"519032825060630898","processor":\{"code":"000","message":"Transacci\'f3n aprobada"\},"recap":null,"approval_code":null\},\{"acquirer_bank":"Afirme","amount":\{"subtotalIva0":2000,"iva":0,"subtotalIva":0,"ice":0,"currency":"MXN"\},"approval_code":"000000","approved_transaction_amount":2000,"bin_card":"545195","card_holder_name":"Senen Rodrguez","card_type":"Credit","constitutional_country":"Mexico","contact_details":\{"document_number":"1234567890","document_type":"CC","email":"senen.rodriguez@example.com","first_name":"Senen","last_name":"Rodriguez","phone_number":"+593912345678"\},"country":"Mexico","created":"2025-02-27T20:57:30.000Z","credential_alias":"CAJITA PRUEBA Branch Mexico","credential_id":"3dc1976fa6da467795754085ab44c9ee","currency_code":"MXN","foreign_card":true,"ice_value":0,"issuing_bank":"Banco de la Produccion S.A. (PRODUBANCO)","iva_value":0,"last_four_digits":"5480","mcc_code":"1234","merchant_id":"20000000104925987000","merchant_name":"CAJITA PRUEBA Branch Mexico","metadata":\{"Referencia":"987654"\},"payment_brand":"Mastercard","plcc":false,"processor_bank_name":"0032~BANCO INTERNACIONAL","processor_id":"6000000000174068248858249493","processor_name":"Prosa Processor","processor_type":"gateway","public_credential_id":"b570374fa1c246da80a6fa7755b83457","request_amount":2000,"response_code":"000","response_text":"Transaccion aprobada","send_cvv":true,"subtotal_iva":0,"subtotal_iva0":2000,"sync_mode":"online","ticket_number":"568858211747869762","transaction_id":"120319335370031039","transaction_reference":"472d2eae-c559-45eb-9926-22027b44cbf0","transaction_status":"APPROVAL","transaction_type":"SALE","transaction_card_id":"6420c5bd-5a3f-45d2-8ac4-88de7b09958d","card_country_code":"EC","card_country":"Ecuador","original_bin":"54519515","processor_code":"","payment_method":"card","social_reason":"","merchant_category":"","tax_id":"","masked_credit_card":"545195XXXXXX5480","security":\{"ip":"187.190.193.106","reason_code":"","user_agent":"PostmanRuntime/7.43.0","whitelist":false\},"string_metadata":"\{\\"Referencia\\":\\"987654\\"\}","order_details":\{"billing_details":\{"address1":"Eloy Alfaro 139 y Catalina Aldaz","address2":"centro 123","city":"Quito","country":"Ecuador","name":"John Doe","phone":"+593912345678","region":"Pichincha"\},"shipping_details":\{"address1":"Eloy Alfaro 139 y Catalina Aldaz","address2":"centro 123","city":"Quito","country":"Ecuador","name":"John Doe","phone":"+593912345678","region":"Pichincha"\},"site_domain":"example.com"\},"product_details":\{"product":[\{"id":"198952AB","price":1000,"quantity":1,"sku":"10101042","title":"eBook Digital Services"\},\{"id":"198953AB","price":1000,"quantity":1,"sku":"004834GQ","title":"eBook Virtual Selling"\}]\}\},\{"acquirer_bank":"Afirme","amount":\{"subtotalIva0":3000,"iva":0,"subtotalIva":0,"ice":0,"currency":"MXN"\},"approval_code":"000000","approved_transaction_amount":3000,"bin_card":"545195","card_holder_name":"Senen Rodrguez","card_type":"Credit","constitutional_country":"Mexico","contact_details":\{"document_number":"1234567890","document_type":"CC","email":"senen.rodriguez@example.com","first_name":"Senen","last_name":"Rodriguez","phone_number":"+5530586988"\},"country":"Mexico","created":"2025-02-28T15:23:33.000Z","credential_alias":"CAJITA PRUEBA Branch Mexico","credential_id":"3dc1976fa6da467795754085ab44c9ee","currency_code":"MXN","foreign_card":true,"ice_value":0,"issuing_bank":"Banco de la Produccion S.A. (PRODUBANCO)","iva_value":0,"last_four_digits":"5480","mcc_code":"1234","merchant_id":"20000000104925987000","merchant_name":"CAJITA PRUEBA Branch Mexico","metadata":\{"Referencia":"12345678"\},"payment_brand":"Mastercard","plcc":false,"processor_bank_name":"0032~BANCO INTERNACIONAL","processor_id":"6000000000174068248858249493","processor_name":"Prosa Processor","processor_type":"gateway","public_credential_id":"b570374fa1c246da80a6fa7755b83457","request_amount":3000,"response_code":"000","response_text":"Transaccion aprobada","send_cvv":true,"subtotal_iva":0,"subtotal_iva0":3000,"sync_mode":"online","ticket_number":"338091092489058051","transaction_id":"899400012568207985","transaction_reference":"2e6586f1-90d2-422c-8370-4f6ec87fada6","transaction_status":"APPROVAL","transaction_type":"SALE","transaction_card_id":"6420c5bd-5a3f-45d2-8ac4-88de7b09958d","card_country_code":"EC","card_country":"Ecuador","original_bin":"54519515","processor_code":"","payment_method":"card","social_reason":"","merchant_category":"","tax_id":"","masked_credit_card":"545195XXXXXX5480","security":\{"ip":"187.190.193.106","reason_code":"","user_agent":"PostmanRuntime/7.43.0","whitelist":false\},"string_metadata":"\{\\"Referencia\\":\\"12345678\\"\}","order_details":\{"billing_details":\{"address1":"Eloy Alfaro 139 y Catalina Aldaz","address2":"centro 123","city":"Quito","country":"Ecuador","name":"John Doe","phone":"+593912345678","region":"Pichincha"\},"shipping_details":\{"address1":"Eloy Alfaro 139 y Catalina Aldaz","address2":"centro 123","city":"Quito","country":"Ecuador","name":"John Doe","phone":"+593912345678","region":"Pichincha"\},"site_domain":"senen.com"\},"product_details":\{"product":[\{"id":"198952AB","price":1500,"quantity":1,"sku":"10101042","title":"eBook Digital Services"\},\{"id":"198953AB","price":1500,"quantity":1,"sku":"004834GQ","title":"eBook Virtual Selling"\}]\}\},\{"amount":\{"subtotalIva0":3000,"iva":0,"subtotalIva":0,"ice":0,"currency":"MXN"\},"approved_transaction_amount":0,"bin_card":"545195","card_holder_name":"Senen Rodrguez","card_type":"Credit","constitutional_country":"Mexico","contact_details":\{"document_number":"1234567890","document_type":"CC","email":"senen.rodriguez@example.com","first_name":"Senen","last_name":"Rodriguez","phone_number":"+5530586988"\},"country":"Mexico","created":"2025-02-28T15:33:18.000Z","credential_alias":"CAJITA PRUEBA Branch Mexico","credential_id":"3dc1976fa6da467795754085ab44c9ee","currency_code":"MXN","foreign_card":true,"ice_value":0,"issuing_bank":"Banco de la Produccion S.A. (PRODUBANCO)","iva_value":0,"last_four_digits":"5480","merchant_id":"20000000104925987000","merchant_name":"CAJITA PRUEBA Branch Mexico","metadata":\{"Referencia":"12345678"\},"payment_brand":"Mastercard","plcc":false,"processor":\{"code":"566","message":"El token es invalido , o ya fue usado en otra transaccion."\},"processor_type":"aggregator_formal","public_credential_id":"b570374fa1c246da80a6fa7755b83457","request_amount":3000,"response_code":"577","response_text":"El token de la transaccion no es valido","send_cvv":true,"subtotal_iva":0,"subtotal_iva0":3000,"sync_mode":"online","transaction_id":"1740756798965995112","transaction_reference":"2e6586f1-90d2-422c-8370-4f6ec87fada6","transaction_status":"DECLINED","transaction_type":"SALE","transaction_card_id":"6420c5bd-5a3f-45d2-8ac4-88de7b09958d","card_country_code":"EC","card_country":"Ecuador","original_bin":"54519515","processor_code":"577","payment_method":"card","social_reason":"","merchant_category":"","tax_id":"","masked_credit_card":"545195XXXXXX5480","security":\{"ip":"187.190.193.106","reason_code":""\},"string_metadata":"\{\\"Referencia\\":\\"12345678\\"\}","order_details":\{"billing_details":\{"address1":"Eloy Alfaro 139 y Catalina Aldaz","address2":"centro 123","city":"Quito","country":"Ecuador","name":"John Doe","phone":"+593912345678","region":"Pichincha"\},"shipping_details":\{"address1":"Eloy Alfaro 139 y Catalina Aldaz","address2":"centro 123","city":"Quito","country":"Ecuador","name":"John Doe","phone":"+593912345678","region":"Pichincha"\},"site_domain":"senen.com"\},"product_details":\{"product":[\{"id":"198952AB","price":1500,"quantity":1,"sku":"10101042","title":"eBook Digital Services"\},\{"id":"198953AB","price":1500,"quantity":1,"sku":"004834GQ","title":"eBook Virtual Selling"\}]\}\},\{"amount":\{"subtotalIva0":3000,"iva":0,"subtotalIva":0,"ice":0,"currency":"MXN"\},"approved_transaction_amount":0,"bin_card":"545195","card_holder_name":"Senen Rodrguez","card_type":"Credit","constitutional_country":"Mexico","contact_details":\{"document_number":"1234567890","document_type":"CC","email":"senen.rodriguez@example.com","first_name":"Senen","last_name":"Rodriguez","phone_number":"+5530586988"\},"country":"Mexico","created":"2025-02-28T15:33:40.000Z","credential_alias":"CAJITA PRUEBA Branch Mexico","credential_id":"3dc1976fa6da467795754085ab44c9ee","currency_code":"MXN","foreign_card":true,"ice_value":0,"issuing_bank":"Banco de la Produccion S.A. (PRODUBANCO)","iva_value":0,"last_four_digits":"5480","merchant_id":"20000000104925987000","merchant_name":"CAJITA PRUEBA Branch Mexico","metadata":\{"Referencia":"12345678"\},"payment_brand":"Mastercard","plcc":false,"processor":\{"code":"566","message":"El token es invalido , o ya fue usado en otra transaccion."\},"processor_type":"aggregator_formal","public_credential_id":"b570374fa1c246da80a6fa7755b83457","request_amount":3000,"response_code":"577","response_text":"El token de la transaccion no es valido","send_cvv":true,"subtotal_iva":0,"subtotal_iva0":3000,"sync_mode":"online","transaction_id":"1740756820843278157","transaction_reference":"2e6586f1-90d2-422c-8370-4f6ec87fada6","transaction_status":"DECLINED","transaction_type":"SALE","transaction_card_id":"6420c5bd-5a3f-45d2-8ac4-88de7b09958d","card_country_code":"EC","card_country":"Ecuador","original_bin":"54519515","processor_code":"577","payment_method":"card","social_reason":"","merchant_category":"","tax_id":"","masked_credit_card":"545195XXXXXX5480","security":\{"ip":"187.190.193.106","reason_code":""\},"string_metadata":"\{\\"Referencia\\":\\"12345678\\"\}","order_details":\{"billing_details":\{"address1":"Eloy Alfaro 139 y Catalina Aldaz","address2":"centro 123","city":"Quito","country":"Ecuador","name":"John Doe","phone":"+593912345678","region":"Pichincha"\},"shipping_details":\{"address1":"Eloy Alfaro 139 y Catalina Aldaz","address2":"centro 123","city":"Quito","country":"Ecuador","name":"John Doe","phone":"+593912345678","region":"Pichincha"\},"site_domain":"senen.com"\},"product_details":\{"product":[\{"id":"198952AB","price":1500,"quantity":1,"sku":"10101042","title":"eBook Digital Services"\},\{"id":"198953AB","price":1500,"quantity":1,"sku":"004834GQ","title":"eBook Virtual Selling"\}]\}\},\{"acquirer_bank":"Afirme","amount":\{"subtotalIva0":3000,"iva":0,"subtotalIva":0,"ice":0,"currency":"MXN"\},"approval_code":"000000","approved_transaction_amount":3000,"bin_card":"545195","card_holder_name":"Senen Rodrguez","card_type":"Credit","constitutional_country":"Mexico","contact_details":\{"document_number":"1234567890","document_type":"CC","email":"senen.rodriguez@example.com","first_name":"Senen","last_name":"Rodriguez","phone_number":"+5530586988"\},"country":"Mexico","created":"2025-02-28T15:34:07.000Z","credential_alias":"CAJITA PRUEBA Branch Mexico","credential_id":"3dc1976fa6da467795754085ab44c9ee","currency_code":"MXN","foreign_card":true,"ice_value":0,"issuing_bank":"Banco de la Produccion S.A. (PRODUBANCO)","iva_value":0,"last_four_digits":"5480","mcc_code":"1234","merchant_id":"20000000104925987000","merchant_name":"CAJITA PRUEBA Branch Mexico","metadata":\{"Referencia":"12345678"\},"payment_brand":"Mastercard","plcc":false,"processor_bank_name":"0032~BANCO INTERNACIONAL","processor_id":"6000000000174068248858249493","processor_name":"Prosa Processor","processor_type":"gateway","public_credential_id":"b570374fa1c246da80a6fa7755b83457","request_amount":3000,"response_code":"000","response_text":"Transaccion aprobada","send_cvv":true,"subtotal_iva":0,"subtotal_iva0":3000,"sync_mode":"online","ticket_number":"041239870399516230","transaction_id":"984534993017710078","transaction_reference":"5251e624-6415-4804-8b85-443c5e2d93af","transaction_status":"APPROVAL","transaction_type":"SALE","transaction_card_id":"6420c5bd-5a3f-45d2-8ac4-88de7b09958d","card_country_code":"EC","card_country":"Ecuador","original_bin":"54519515","processor_code":"","payment_method":"card","social_reason":"","merchant_category":"","tax_id":"","masked_credit_card":"545195XXXXXX5480","security":\{"ip":"187.190.193.106","reason_code":"","user_agent":"PostmanRuntime/7.43.0","whitelist":false\},"string_metadata":"\{\\"Referencia\\":\\"12345678\\"\}","order_details":\{"billing_details":\{"address1":"Eloy Alfaro 139 y Catalina Aldaz","address2":"centro 123","city":"Quito","country":"Ecuador","name":"John Doe","phone":"+593912345678","region":"Pichincha"\},"shipping_details":\{"address1":"Eloy Alfaro 139 y Catalina Aldaz","address2":"centro 123","city":"Quito","country":"Ecuador","name":"John Doe","phone":"+593912345678","region":"Pichincha"\},"site_domain":"senen.com"\},"product_details":\{"product":[\{"id":"198952AB","price":1500,"quantity":1,"sku":"10101042","title":"eBook Digital Services"\},\{"id":"198953AB","price":1500,"quantity":1,"sku":"004834GQ","title":"eBook Virtual Selling"\}]\}\},\{"ice_value":0,"iva_value":0,"subtotal_iva":0,"subtotal_iva0":3000,"approved_transaction_amount":3000,"bin_card":"545195","card_country_code":"EC","card_country":"Ecuador","card_holder_name":"Senen Rodrguez","card_type":"Credit","consortium_name":null,"contact_person":"Senen Rodriguez Maldonado","country":"Mexico","created":"2025-02-28T15:39:24.778Z","credential_alias":"CAJITA PRUEBA Branch Mexico","credential_id":"3dc1976fa6da467795754085ab44c9ee","credential_metadata":null,"currency_code":"MXN","email":"senen.rodriguez@outlook.com","foreign_card":true,"last_four_digits":"5480","mcc_code":"1234","merchant_id":"20000000104925987000","merchant_name":"CAJITA PRUEBA Branch Mexico","metadata":\{"Referencia":"12345678"\},"nit":"PRUEBA123457","partial_void":false,"payment_brand":"Mastercard","processor_bank_name":"0032~BANCO INTERNACIONAL","processor_id":"6000000000174068248858249493","processor_merchant_id":"7133263","processor_name":"Prosa Processor","processor_type":"gateway","public_credential_id":"b570374fa1c246da80a6fa7755b83457","request_amount":3000,"response_code":"000","response_text":"Transacci\'f3n aprobada","sale_approval_code":"000000","sale_ticket_number":"041239870399516230","sale_transaction_type":"SALE","social_reason":null,"sync_mode":"online","tax_id":null,"terminal_id":"20390058","ticket_number":"661740757164440133","transaction_id":"1740757164439992961","transaction_reference":"01a281a9-75c5-4870-b537-0a041a75765d","transaction_status":"INITIALIZED","transaction_type":"VOID","unique_code":null,"visibility":"visible","payment_method":"card","merchant_category":"","masked_credit_card":"545195XXXXXX5480","transaction_card_id":""\}]\}}
+{
+    "total": 15,
+    "data": [
+        {
+            "amount": {
+                "subtotalIva0": 16.98,
+                "iva": 0,
+                "subtotalIva": 0,
+                "ice": 0,
+                "currency": "MXN"
+            },
+            "approved_transaction_amount": 0,
+            "bin_card": "545195",
+            "card_holder_name": "Senen Rodrguez",
+            "card_type": "Credit",
+            "constitutional_country": "Mexico",
+            "contact_details": {
+                "document_number": "1234567890",
+                "document_type": "CC",
+                "email": "senen.rodriguez@example.com",
+                "first_name": "Senen",
+                "last_name": "Rodriguez",
+                "phone_number": "+593912345678"
+            },
+            "country": "Mexico",
+            "created": "2025-02-27T20:24:43.000Z",
+            "credential_alias": "CAJITA PRUEBA Branch Mexico",
+            "credential_id": "3dc1976fa6da467795754085ab44c9ee",
+            "currency_code": "MXN",
+            "foreign_card": true,
+            "ice_value": 0,
+            "issuing_bank": "Banco de la Produccion S.A. (PRODUBANCO)",
+            "iva_value": 0,
+            "last_four_digits": "5480",
+            "merchant_id": "20000000104925987000",
+            "merchant_name": "CAJITA PRUEBA Branch Mexico",
+            "metadata": {
+                "Referencia": "987654"
+            },
+            "payment_brand": "Mastercard",
+            "plcc": false,
+            "processor_type": "aggregator_formal",
+            "public_credential_id": "b570374fa1c246da80a6fa7755b83457",
+            "request_amount": 16.98,
+            "response_code": "K220",
+            "response_text": "Monto de la transaccion es diferente al monto de la venta inicial",
+            "send_cvv": true,
+            "subtotal_iva": 0,
+            "subtotal_iva0": 16.98,
+            "sync_mode": "online",
+            "transaction_id": "1740687883975387763",
+            "transaction_reference": "cfd76961-f249-4024-886c-ea88b9e6850a",
+            "transaction_status": "DECLINED",
+            "transaction_type": "SALE",
+            "transaction_card_id": "6420c5bd-5a3f-45d2-8ac4-88de7b09958d",
+            "card_country_code": "EC",
+            "card_country": "Ecuador",
+            "original_bin": "54519515",
+            "processor_code": "",
+            "payment_method": "card",
+            "social_reason": "",
+            "merchant_category": "",
+            "tax_id": "",
+            "masked_credit_card": "545195XXXXXX5480",
+            "security": {
+                "ip": "187.190.193.106",
+                "reason_code": ""
+            },
+            "string_metadata": "{\"Referencia\":\"987654\"}",
+            "order_details": {
+                "billing_details": {
+                    "address1": "Eloy Alfaro 139 y Catalina Aldaz",
+                    "address2": "centro 123",
+                    "city": "Quito",
+                    "country": "Ecuador",
+                    "name": "John Doe",
+                    "phone": "+593912345678",
+                    "region": "Pichincha"
+                },
+                "shipping_details": {
+                    "address1": "Eloy Alfaro 139 y Catalina Aldaz",
+                    "address2": "centro 123",
+                    "city": "Quito",
+                    "country": "Ecuador",
+                    "name": "John Doe",
+                    "phone": "+593912345678",
+                    "region": "Pichincha"
+                },
+                "site_domain": "example.com"
+            },
+            "product_details": {
+                "product": [
+                    {
+                        "id": "198952AB",
+                        "price": 10000,
+                        "quantity": 1,
+                        "sku": "10101042",
+                        "title": "eBook Digital Services"
+                    },
+                    {
+                        "id": "198953AB",
+                        "price": 6980,
+                        "quantity": 1,
+                        "sku": "004834GQ",
+                        "title": "eBook Virtual Selling"
+                    }
+                ]
+            }
+        },
+        {
+            "amount": {
+                "subtotalIva0": 16.98,
+                "iva": 0,
+                "subtotalIva": 0,
+                "ice": 0,
+                "currency": "MXN"
+            },
+            "approved_transaction_amount": 0,
+            "bin_card": "545195",
+            "card_holder_name": "Senen Rodrguez",
+            "card_type": "Credit",
+            "constitutional_country": "Mexico",
+            "contact_details": {
+                "document_number": "1234567890",
+                "document_type": "CC",
+                "email": "senen.rodriguez@example.com",
+                "first_name": "Senen",
+                "last_name": "Rodriguez",
+                "phone_number": "+593912345678"
+            },
+            "country": "Mexico",
+            "created": "2025-02-27T20:25:39.000Z",
+            "credential_alias": "CAJITA PRUEBA Branch Mexico",
+            "credential_id": "3dc1976fa6da467795754085ab44c9ee",
+            "currency_code": "MXN",
+            "foreign_card": true,
+            "ice_value": 0,
+            "issuing_bank": "Banco de la Produccion S.A. (PRODUBANCO)",
+            "iva_value": 0,
+            "last_four_digits": "5480",
+            "merchant_id": "20000000104925987000",
+            "merchant_name": "CAJITA PRUEBA Branch Mexico",
+            "metadata": {
+                "Referencia": "987654"
+            },
+            "payment_brand": "Mastercard",
+            "plcc": false,
+            "processor": {
+                "code": "566",
+                "message": "El token es invalido , o ya fue usado en otra transaccion."
+            },
+            "processor_type": "aggregator_formal",
+            "public_credential_id": "b570374fa1c246da80a6fa7755b83457",
+            "request_amount": 16.98,
+            "response_code": "577",
+            "response_text": "El token de la transaccion no es valido",
+            "send_cvv": true,
+            "subtotal_iva": 0,
+            "subtotal_iva0": 16.98,
+            "sync_mode": "online",
+            "transaction_id": "1740687939656699376",
+            "transaction_reference": "cfd76961-f249-4024-886c-ea88b9e6850a",
+            "transaction_status": "DECLINED",
+            "transaction_type": "SALE",
+            "transaction_card_id": "6420c5bd-5a3f-45d2-8ac4-88de7b09958d",
+            "card_country_code": "EC",
+            "card_country": "Ecuador",
+            "original_bin": "54519515",
+            "processor_code": "577",
+            "payment_method": "card",
+            "social_reason": "",
+            "merchant_category": "",
+            "tax_id": "",
+            "masked_credit_card": "545195XXXXXX5480",
+            "security": {
+                "ip": "187.190.193.106",
+                "reason_code": ""
+            },
+            "string_metadata": "{\"Referencia\":\"987654\"}",
+            "order_details": {
+                "billing_details": {
+                    "address1": "Eloy Alfaro 139 y Catalina Aldaz",
+                    "address2": "centro 123",
+                    "city": "Quito",
+                    "country": "Ecuador",
+                    "name": "John Doe",
+                    "phone": "+593912345678",
+                    "region": "Pichincha"
+                },
+                "shipping_details": {
+                    "address1": "Eloy Alfaro 139 y Catalina Aldaz",
+                    "address2": "centro 123",
+                    "city": "Quito",
+                    "country": "Ecuador",
+                    "name": "John Doe",
+                    "phone": "+593912345678",
+                    "region": "Pichincha"
+                },
+                "site_domain": "example.com"
+            },
+            "product_details": {
+                "product": [
+                    {
+                        "id": "198952AB",
+                        "price": 1000,
+                        "quantity": 1,
+                        "sku": "10101042",
+                        "title": "eBook Digital Services"
+                    },
+                    {
+                        "id": "198953AB",
+                        "price": 6980,
+                        "quantity": 1,
+                        "sku": "004834GQ",
+                        "title": "eBook Virtual Selling"
+                    }
+                ]
+            }
+        },
+        {
+            "amount": {
+                "subtotalIva0": 16.98,
+                "iva": 0,
+                "subtotalIva": 0,
+                "ice": 0,
+                "currency": "MXN"
+            },
+            "approved_transaction_amount": 0,
+            "bin_card": "545195",
+            "card_holder_name": "Senen Rodrguez",
+            "card_type": "Credit",
+            "constitutional_country": "Mexico",
+            "contact_details": {
+                "document_number": "1234567890",
+                "document_type": "CC",
+                "email": "senen.rodriguez@example.com",
+                "first_name": "Senen",
+                "last_name": "Rodriguez",
+                "phone_number": "+593912345678"
+            },
+            "country": "Mexico",
+            "created": "2025-02-27T20:26:07.000Z",
+            "credential_alias": "CAJITA PRUEBA Branch Mexico",
+            "credential_id": "3dc1976fa6da467795754085ab44c9ee",
+            "currency_code": "MXN",
+            "foreign_card": true,
+            "ice_value": 0,
+            "issuing_bank": "Banco de la Produccion S.A. (PRODUBANCO)",
+            "iva_value": 0,
+            "last_four_digits": "5480",
+            "merchant_id": "20000000104925987000",
+            "merchant_name": "CAJITA PRUEBA Branch Mexico",
+            "metadata": {
+                "Referencia": "987654"
+            },
+            "payment_brand": "Mastercard",
+            "plcc": false,
+            "processor_type": "aggregator_formal",
+            "public_credential_id": "b570374fa1c246da80a6fa7755b83457",
+            "request_amount": 16.98,
+            "response_code": "K220",
+            "response_text": "Monto de la transaccion es diferente al monto de la venta inicial",
+            "send_cvv": true,
+            "subtotal_iva": 0,
+            "subtotal_iva0": 16.98,
+            "sync_mode": "online",
+            "transaction_id": "1740687967298476869",
+            "transaction_reference": "6c999b4f-ef38-4a97-a37d-ed317f02233f",
+            "transaction_status": "DECLINED",
+            "transaction_type": "SALE",
+            "transaction_card_id": "6420c5bd-5a3f-45d2-8ac4-88de7b09958d",
+            "card_country_code": "EC",
+            "card_country": "Ecuador",
+            "original_bin": "54519515",
+            "processor_code": "",
+            "payment_method": "card",
+            "social_reason": "",
+            "merchant_category": "",
+            "tax_id": "",
+            "masked_credit_card": "545195XXXXXX5480",
+            "security": {
+                "ip": "187.190.193.106",
+                "reason_code": ""
+            },
+            "string_metadata": "{\"Referencia\":\"987654\"}",
+            "order_details": {
+                "billing_details": {
+                    "address1": "Eloy Alfaro 139 y Catalina Aldaz",
+                    "address2": "centro 123",
+                    "city": "Quito",
+                    "country": "Ecuador",
+                    "name": "John Doe",
+                    "phone": "+593912345678",
+                    "region": "Pichincha"
+                },
+                "shipping_details": {
+                    "address1": "Eloy Alfaro 139 y Catalina Aldaz",
+                    "address2": "centro 123",
+                    "city": "Quito",
+                    "country": "Ecuador",
+                    "name": "John Doe",
+                    "phone": "+593912345678",
+                    "region": "Pichincha"
+                },
+                "site_domain": "example.com"
+            },
+            "product_details": {
+                "product": [
+                    {
+                        "id": "198952AB",
+                        "price": 1000,
+                        "quantity": 1,
+                        "sku": "10101042",
+                        "title": "eBook Digital Services"
+                    },
+                    {
+                        "id": "198953AB",
+                        "price": 6980,
+                        "quantity": 1,
+                        "sku": "004834GQ",
+                        "title": "eBook Virtual Selling"
+                    }
+                ]
+            }
+        },
+        {
+            "amount": {
+                "subtotalIva0": 16.98,
+                "iva": 0,
+                "subtotalIva": 0,
+                "ice": 0,
+                "currency": "MXN"
+            },
+            "approved_transaction_amount": 0,
+            "bin_card": "545195",
+            "card_holder_name": "Senen Rodrguez",
+            "card_type": "Credit",
+            "constitutional_country": "Mexico",
+            "contact_details": {
+                "document_number": "1234567890",
+                "document_type": "CC",
+                "email": "senen.rodriguez@example.com",
+                "first_name": "Senen",
+                "last_name": "Rodriguez",
+                "phone_number": "+593912345678"
+            },
+            "country": "Mexico",
+            "created": "2025-02-27T20:27:01.000Z",
+            "credential_alias": "CAJITA PRUEBA Branch Mexico",
+            "credential_id": "3dc1976fa6da467795754085ab44c9ee",
+            "currency_code": "MXN",
+            "foreign_card": true,
+            "ice_value": 0,
+            "issuing_bank": "Banco de la Produccion S.A. (PRODUBANCO)",
+            "iva_value": 0,
+            "last_four_digits": "5480",
+            "merchant_id": "20000000104925987000",
+            "merchant_name": "CAJITA PRUEBA Branch Mexico",
+            "metadata": {
+                "Referencia": "987654"
+            },
+            "payment_brand": "Mastercard",
+            "plcc": false,
+            "processor": {
+                "code": "566",
+                "message": "El token es invalido , o ya fue usado en otra transaccion."
+            },
+            "processor_type": "aggregator_formal",
+            "public_credential_id": "b570374fa1c246da80a6fa7755b83457",
+            "request_amount": 16.98,
+            "response_code": "577",
+            "response_text": "El token de la transaccion no es valido",
+            "send_cvv": true,
+            "subtotal_iva": 0,
+            "subtotal_iva0": 16.98,
+            "sync_mode": "online",
+            "transaction_id": "1740688021884815150",
+            "transaction_reference": "6c999b4f-ef38-4a97-a37d-ed317f02233f",
+            "transaction_status": "DECLINED",
+            "transaction_type": "SALE",
+            "transaction_card_id": "6420c5bd-5a3f-45d2-8ac4-88de7b09958d",
+            "card_country_code": "EC",
+            "card_country": "Ecuador",
+            "original_bin": "54519515",
+            "processor_code": "577",
+            "payment_method": "card",
+            "social_reason": "",
+            "merchant_category": "",
+            "tax_id": "",
+            "masked_credit_card": "545195XXXXXX5480",
+            "security": {
+                "ip": "187.190.193.106",
+                "reason_code": ""
+            },
+            "string_metadata": "{\"Referencia\":\"987654\"}",
+            "order_details": {
+                "billing_details": {
+                    "address1": "Eloy Alfaro 139 y Catalina Aldaz",
+                    "address2": "centro 123",
+                    "city": "Quito",
+                    "country": "Ecuador",
+                    "name": "John Doe",
+                    "phone": "+593912345678",
+                    "region": "Pichincha"
+                },
+                "shipping_details": {
+                    "address1": "Eloy Alfaro 139 y Catalina Aldaz",
+                    "address2": "centro 123",
+                    "city": "Quito",
+                    "country": "Ecuador",
+                    "name": "John Doe",
+                    "phone": "+593912345678",
+                    "region": "Pichincha"
+                },
+                "site_domain": "example.com"
+            },
+            "product_details": {
+                "product": [
+                    {
+                        "id": "198952AB",
+                        "price": 1000,
+                        "quantity": 1,
+                        "sku": "10101042",
+                        "title": "eBook Digital Services"
+                    },
+                    {
+                        "id": "198953AB",
+                        "price": 1000,
+                        "quantity": 1,
+                        "sku": "004834GQ",
+                        "title": "eBook Virtual Selling"
+                    }
+                ]
+            }
+        },
+        {
+            "amount": {
+                "subtotalIva0": 16.98,
+                "iva": 0,
+                "subtotalIva": 0,
+                "ice": 0,
+                "currency": "MXN"
+            },
+            "approved_transaction_amount": 0,
+            "bin_card": "545195",
+            "card_holder_name": "Senen Rodrguez",
+            "card_type": "Credit",
+            "constitutional_country": "Mexico",
+            "contact_details": {
+                "document_number": "1234567890",
+                "document_type": "CC",
+                "email": "senen.rodriguez@example.com",
+                "first_name": "Senen",
+                "last_name": "Rodriguez",
+                "phone_number": "+593912345678"
+            },
+            "country": "Mexico",
+            "created": "2025-02-27T20:27:32.000Z",
+            "credential_alias": "CAJITA PRUEBA Branch Mexico",
+            "credential_id": "3dc1976fa6da467795754085ab44c9ee",
+            "currency_code": "MXN",
+            "foreign_card": true,
+            "ice_value": 0,
+            "issuing_bank": "Banco de la Produccion S.A. (PRODUBANCO)",
+            "iva_value": 0,
+            "last_four_digits": "5480",
+            "merchant_id": "20000000104925987000",
+            "merchant_name": "CAJITA PRUEBA Branch Mexico",
+            "metadata": {
+                "Referencia": "987654"
+            },
+            "payment_brand": "Mastercard",
+            "plcc": false,
+            "processor_type": "aggregator_formal",
+            "public_credential_id": "b570374fa1c246da80a6fa7755b83457",
+            "request_amount": 16.98,
+            "response_code": "K220",
+            "response_text": "Monto de la transaccion es diferente al monto de la venta inicial",
+            "send_cvv": true,
+            "subtotal_iva": 0,
+            "subtotal_iva0": 16.98,
+            "sync_mode": "online",
+            "transaction_id": "1740688052722233402",
+            "transaction_reference": "fc17e9bc-0829-4944-89c7-f4325106b362",
+            "transaction_status": "DECLINED",
+            "transaction_type": "SALE",
+            "transaction_card_id": "6420c5bd-5a3f-45d2-8ac4-88de7b09958d",
+            "card_country_code": "EC",
+            "card_country": "Ecuador",
+            "original_bin": "54519515",
+            "processor_code": "",
+            "payment_method": "card",
+            "social_reason": "",
+            "merchant_category": "",
+            "tax_id": "",
+            "masked_credit_card": "545195XXXXXX5480",
+            "security": {
+                "ip": "187.190.193.106",
+                "reason_code": ""
+            },
+            "string_metadata": "{\"Referencia\":\"987654\"}",
+            "order_details": {
+                "billing_details": {
+                    "address1": "Eloy Alfaro 139 y Catalina Aldaz",
+                    "address2": "centro 123",
+                    "city": "Quito",
+                    "country": "Ecuador",
+                    "name": "John Doe",
+                    "phone": "+593912345678",
+                    "region": "Pichincha"
+                },
+                "shipping_details": {
+                    "address1": "Eloy Alfaro 139 y Catalina Aldaz",
+                    "address2": "centro 123",
+                    "city": "Quito",
+                    "country": "Ecuador",
+                    "name": "John Doe",
+                    "phone": "+593912345678",
+                    "region": "Pichincha"
+                },
+                "site_domain": "example.com"
+            },
+            "product_details": {
+                "product": [
+                    {
+                        "id": "198952AB",
+                        "price": 1000,
+                        "quantity": 1,
+                        "sku": "10101042",
+                        "title": "eBook Digital Services"
+                    },
+                    {
+                        "id": "198953AB",
+                        "price": 1000,
+                        "quantity": 1,
+                        "sku": "004834GQ",
+                        "title": "eBook Virtual Selling"
+                    }
+                ]
+            }
+        },
+        {
+            "acquirer_bank": "Afirme",
+            "amount": {
+                "subtotalIva0": 2000,
+                "iva": 0,
+                "subtotalIva": 0,
+                "ice": 0,
+                "currency": "MXN"
+            },
+            "approval_code": "000000",
+            "approved_transaction_amount": 2000,
+            "bin_card": "545195",
+            "card_holder_name": "Senen Rodrguez",
+            "card_type": "Credit",
+            "constitutional_country": "Mexico",
+            "contact_details": {
+                "document_number": "1234567890",
+                "document_type": "CC",
+                "email": "senen.rodriguez@example.com",
+                "first_name": "Senen",
+                "last_name": "Rodriguez",
+                "phone_number": "+593912345678"
+            },
+            "country": "Mexico",
+            "created": "2025-02-27T20:28:06.000Z",
+            "credential_alias": "CAJITA PRUEBA Branch Mexico",
+            "credential_id": "3dc1976fa6da467795754085ab44c9ee",
+            "currency_code": "MXN",
+            "foreign_card": true,
+            "ice_value": 0,
+            "issuing_bank": "Banco de la Produccion S.A. (PRODUBANCO)",
+            "iva_value": 0,
+            "last_four_digits": "5480",
+            "mcc_code": "1234",
+            "merchant_id": "20000000104925987000",
+            "merchant_name": "CAJITA PRUEBA Branch Mexico",
+            "metadata": {
+                "Referencia": "987654"
+            },
+            "payment_brand": "Mastercard",
+            "plcc": false,
+            "processor_bank_name": "0032~BANCO INTERNACIONAL",
+            "processor_id": "6000000000174068248858249493",
+            "processor_name": "Prosa Processor",
+            "processor_type": "gateway",
+            "public_credential_id": "b570374fa1c246da80a6fa7755b83457",
+            "request_amount": 2000,
+            "response_code": "000",
+            "response_text": "Transaccion aprobada",
+            "send_cvv": true,
+            "subtotal_iva": 0,
+            "subtotal_iva0": 2000,
+            "sync_mode": "online",
+            "ticket_number": "777577273809074073",
+            "transaction_id": "056664394382939562",
+            "transaction_reference": "189f202a-39ad-4400-8034-bce188c8464d",
+            "transaction_status": "APPROVAL",
+            "transaction_type": "SALE",
+            "transaction_card_id": "6420c5bd-5a3f-45d2-8ac4-88de7b09958d",
+            "card_country_code": "EC",
+            "card_country": "Ecuador",
+            "original_bin": "54519515",
+            "processor_code": "",
+            "payment_method": "card",
+            "social_reason": "",
+            "merchant_category": "",
+            "tax_id": "",
+            "masked_credit_card": "545195XXXXXX5480",
+            "security": {
+                "ip": "187.190.193.106",
+                "reason_code": "",
+                "user_agent": "PostmanRuntime/7.43.0",
+                "whitelist": false
+            },
+            "string_metadata": "{\"Referencia\":\"987654\"}",
+            "order_details": {
+                "billing_details": {
+                    "address1": "Eloy Alfaro 139 y Catalina Aldaz",
+                    "address2": "centro 123",
+                    "city": "Quito",
+                    "country": "Ecuador",
+                    "name": "John Doe",
+                    "phone": "+593912345678",
+                    "region": "Pichincha"
+                },
+                "shipping_details": {
+                    "address1": "Eloy Alfaro 139 y Catalina Aldaz",
+                    "address2": "centro 123",
+                    "city": "Quito",
+                    "country": "Ecuador",
+                    "name": "John Doe",
+                    "phone": "+593912345678",
+                    "region": "Pichincha"
+                },
+                "site_domain": "example.com"
+            },
+            "product_details": {
+                "product": [
+                    {
+                        "id": "198952AB",
+                        "price": 1000,
+                        "quantity": 1,
+                        "sku": "10101042",
+                        "title": "eBook Digital Services"
+                    },
+                    {
+                        "id": "198953AB",
+                        "price": 1000,
+                        "quantity": 1,
+                        "sku": "004834GQ",
+                        "title": "eBook Virtual Selling"
+                    }
+                ]
+            }
+        },
+        {
+            "amount": {
+                "subtotalIva0": 2000,
+                "iva": 0,
+                "subtotalIva": 0,
+                "ice": 0,
+                "currency": "MXN"
+            },
+            "approved_transaction_amount": 0,
+            "bin_card": "545195",
+            "card_holder_name": "Senen Rodrguez",
+            "card_type": "Credit",
+            "constitutional_country": "Mexico",
+            "contact_details": {
+                "document_number": "1234567890",
+                "document_type": "CC",
+                "email": "senen.rodriguez@example.com",
+                "first_name": "Senen",
+                "last_name": "Rodriguez",
+                "phone_number": "+593912345678"
+            },
+            "country": "Mexico",
+            "created": "2025-02-27T20:32:41.000Z",
+            "credential_alias": "CAJITA PRUEBA Branch Mexico",
+            "credential_id": "3dc1976fa6da467795754085ab44c9ee",
+            "currency_code": "MXN",
+            "foreign_card": true,
+            "ice_value": 0,
+            "issuing_bank": "Banco de la Produccion S.A. (PRODUBANCO)",
+            "iva_value": 0,
+            "last_four_digits": "5480",
+            "merchant_id": "20000000104925987000",
+            "merchant_name": "CAJITA PRUEBA Branch Mexico",
+            "metadata": {
+                "Referencia": "987654"
+            },
+            "payment_brand": "Mastercard",
+            "plcc": false,
+            "processor": {
+                "code": "566",
+                "message": "El token es invalido , o ya fue usado en otra transaccion."
+            },
+            "processor_type": "aggregator_formal",
+            "public_credential_id": "b570374fa1c246da80a6fa7755b83457",
+            "request_amount": 2000,
+            "response_code": "577",
+            "response_text": "El token de la transaccion no es valido",
+            "send_cvv": true,
+            "subtotal_iva": 0,
+            "subtotal_iva0": 2000,
+            "sync_mode": "online",
+            "transaction_id": "1740688361964558113",
+            "transaction_reference": "189f202a-39ad-4400-8034-bce188c8464d",
+            "transaction_status": "DECLINED",
+            "transaction_type": "SALE",
+            "transaction_card_id": "6420c5bd-5a3f-45d2-8ac4-88de7b09958d",
+            "card_country_code": "EC",
+            "card_country": "Ecuador",
+            "original_bin": "54519515",
+            "processor_code": "577",
+            "payment_method": "card",
+            "social_reason": "",
+            "merchant_category": "",
+            "tax_id": "",
+            "masked_credit_card": "545195XXXXXX5480",
+            "security": {
+                "ip": "187.190.193.106",
+                "reason_code": ""
+            },
+            "string_metadata": "{\"Referencia\":\"987654\"}",
+            "order_details": {
+                "billing_details": {
+                    "address1": "Eloy Alfaro 139 y Catalina Aldaz",
+                    "address2": "centro 123",
+                    "city": "Quito",
+                    "country": "Ecuador",
+                    "name": "John Doe",
+                    "phone": "+593912345678",
+                    "region": "Pichincha"
+                },
+                "shipping_details": {
+                    "address1": "Eloy Alfaro 139 y Catalina Aldaz",
+                    "address2": "centro 123",
+                    "city": "Quito",
+                    "country": "Ecuador",
+                    "name": "John Doe",
+                    "phone": "+593912345678",
+                    "region": "Pichincha"
+                },
+                "site_domain": "example.com"
+            },
+            "product_details": {
+                "product": [
+                    {
+                        "id": "198952AB",
+                        "price": 1000,
+                        "quantity": 1,
+                        "sku": "10101042",
+                        "title": "eBook Digital Services"
+                    },
+                    {
+                        "id": "198953AB",
+                        "price": 1000,
+                        "quantity": 1,
+                        "sku": "004834GQ",
+                        "title": "eBook Virtual Selling"
+                    }
+                ]
+            }
+        },
+        {
+            "acquirer_bank": "Afirme",
+            "amount": {
+                "subtotalIva0": 2000,
+                "iva": 0,
+                "subtotalIva": 0,
+                "ice": 0,
+                "currency": "MXN"
+            },
+            "approval_code": "000000",
+            "approved_transaction_amount": 2000,
+            "bin_card": "545195",
+            "card_holder_name": "Senen Rodrguez",
+            "card_type": "Credit",
+            "constitutional_country": "Mexico",
+            "contact_details": {
+                "document_number": "1234567890",
+                "document_type": "CC",
+                "email": "senen.rodriguez@example.com",
+                "first_name": "Senen",
+                "last_name": "Rodriguez",
+                "phone_number": "+593912345678"
+            },
+            "country": "Mexico",
+            "created": "2025-02-27T20:33:31.000Z",
+            "credential_alias": "CAJITA PRUEBA Branch Mexico",
+            "credential_id": "3dc1976fa6da467795754085ab44c9ee",
+            "currency_code": "MXN",
+            "foreign_card": true,
+            "ice_value": 0,
+            "issuing_bank": "Banco de la Produccion S.A. (PRODUBANCO)",
+            "iva_value": 0,
+            "last_four_digits": "5480",
+            "mcc_code": "1234",
+            "merchant_id": "20000000104925987000",
+            "merchant_name": "CAJITA PRUEBA Branch Mexico",
+            "metadata": {
+                "Referencia": "987654"
+            },
+            "payment_brand": "Mastercard",
+            "plcc": false,
+            "processor_bank_name": "0032~BANCO INTERNACIONAL",
+            "processor_id": "6000000000174068248858249493",
+            "processor_name": "Prosa Processor",
+            "processor_type": "gateway",
+            "public_credential_id": "b570374fa1c246da80a6fa7755b83457",
+            "request_amount": 2000,
+            "response_code": "000",
+            "response_text": "Transaccion aprobada",
+            "send_cvv": true,
+            "subtotal_iva": 0,
+            "subtotal_iva0": 2000,
+            "sync_mode": "online",
+            "ticket_number": "519032825060630898",
+            "transaction_id": "589040667867670762",
+            "transaction_reference": "4cec7785-2607-46e5-9cb2-4739cdb8aeb4",
+            "transaction_status": "APPROVAL",
+            "transaction_type": "SALE",
+            "transaction_card_id": "6420c5bd-5a3f-45d2-8ac4-88de7b09958d",
+            "card_country_code": "EC",
+            "card_country": "Ecuador",
+            "original_bin": "54519515",
+            "processor_code": "",
+            "payment_method": "card",
+            "social_reason": "",
+            "merchant_category": "",
+            "tax_id": "",
+            "masked_credit_card": "545195XXXXXX5480",
+            "security": {
+                "ip": "187.190.193.106",
+                "reason_code": "",
+                "user_agent": "PostmanRuntime/7.43.0",
+                "whitelist": false
+            },
+            "string_metadata": "{\"Referencia\":\"987654\"}",
+            "order_details": {
+                "billing_details": {
+                    "address1": "Eloy Alfaro 139 y Catalina Aldaz",
+                    "address2": "centro 123",
+                    "city": "Quito",
+                    "country": "Ecuador",
+                    "name": "John Doe",
+                    "phone": "+593912345678",
+                    "region": "Pichincha"
+                },
+                "shipping_details": {
+                    "address1": "Eloy Alfaro 139 y Catalina Aldaz",
+                    "address2": "centro 123",
+                    "city": "Quito",
+                    "country": "Ecuador",
+                    "name": "John Doe",
+                    "phone": "+593912345678",
+                    "region": "Pichincha"
+                },
+                "site_domain": "example.com"
+            },
+            "product_details": {
+                "product": [
+                    {
+                        "id": "198952AB",
+                        "price": 1000,
+                        "quantity": 1,
+                        "sku": "10101042",
+                        "title": "eBook Digital Services"
+                    },
+                    {
+                        "id": "198953AB",
+                        "price": 1000,
+                        "quantity": 1,
+                        "sku": "004834GQ",
+                        "title": "eBook Virtual Selling"
+                    }
+                ]
+            }
+        },
+        {
+            "ice_value": 0,
+            "iva_value": 0,
+            "subtotal_iva": 0,
+            "subtotal_iva0": 2000,
+            "approved_transaction_amount": 2000,
+            "bin_card": "545195",
+            "card_country_code": "EC",
+            "card_country": "Ecuador",
+            "card_holder_name": "Senen Rodrguez",
+            "card_type": "Credit",
+            "consortium_name": null,
+            "contact_person": "Senen Rodriguez Maldonado",
+            "country": "Mexico",
+            "created": "2025-02-27T20:43:43.352Z",
+            "credential_alias": "CAJITA PRUEBA Branch Mexico",
+            "credential_id": "3dc1976fa6da467795754085ab44c9ee",
+            "credential_metadata": null,
+            "currency_code": "MXN",
+            "email": "senen.rodriguez@outlook.com",
+            "foreign_card": true,
+            "last_four_digits": "5480",
+            "mcc_code": "1234",
+            "merchant_id": "20000000104925987000",
+            "merchant_name": "CAJITA PRUEBA Branch Mexico",
+            "metadata": {
+                "Referencia": "987654"
+            },
+            "nit": "PRUEBA123457",
+            "partial_void": false,
+            "payment_brand": "Mastercard",
+            "processor_bank_name": null,
+            "processor_id": "6000000000174068248858249493",
+            "processor_merchant_id": "7133263",
+            "processor_name": "Prosa Processor",
+            "processor_type": "gateway",
+            "public_credential_id": "b570374fa1c246da80a6fa7755b83457",
+            "request_amount": 2000,
+            "response_code": "000",
+            "response_text": "Transacción aprobada",
+            "sale_approval_code": "000000",
+            "sale_ticket_number": "519032825060630898",
+            "sale_transaction_type": "SALE",
+            "social_reason": null,
+            "sync_mode": "online",
+            "tax_id": null,
+            "terminal_id": "20390058",
+            "ticket_number": "661740689022346881",
+            "transaction_id": "589040667867670762",
+            "transaction_reference": "c3d6ac43-d7dc-493e-8f4d-d560f1aa04bd",
+            "transaction_status": "APPROVAL",
+            "transaction_type": "VOID",
+            "unique_code": null,
+            "visibility": "visible",
+            "payment_method": "card",
+            "merchant_category": "",
+            "masked_credit_card": "545195XXXXXX5480",
+            "transaction_card_id": "",
+            "historical": [
+                {
+                    "country": "Mexico",
+                    "public_credential_id": "b570374fa1c246da80a6fa7755b83457",
+                    "subtotal_iva": 0,
+                    "card_country": "Ecuador",
+                    "nit": "PRUEBA123457",
+                    "processor_name": "Prosa Processor",
+                    "response_text": "Transacción aprobada",
+                    "sale_ticket_number": "519032825060630898",
+                    "transaction_reference": "55187ed4-af51-453f-82a2-e02b925561ee",
+                    "mcc_code": "1234",
+                    "unique_code": null,
+                    "payment_method": "card",
+                    "terminal_id": "20390058",
+                    "transaction_id": "1740689022340891656",
+                    "visibility": "visible",
+                    "created": "2025-02-27T20:43:42.641Z",
+                    "iva_value": 0,
+                    "sale_approval_code": "000000",
+                    "merchant_name": "CAJITA PRUEBA Branch Mexico",
+                    "sale_transaction_type": "SALE",
+                    "transaction_type": "VOID",
+                    "tax_id": null,
+                    "sync_mode": "online",
+                    "credential_metadata": null,
+                    "subtotal_iva0": 2000,
+                    "processor_type": "gateway",
+                    "response_code": "000",
+                    "transaction_status": "INITIALIZED",
+                    "social_reason": null,
+                    "card_holder_name": "Senen Rodrguez",
+                    "payment_brand": "Mastercard",
+                    "request_amount": 2000,
+                    "processor_merchant_id": "7133263",
+                    "merchant_id": "20000000104925987000",
+                    "approved_transaction_amount": 2000,
+                    "merchant_category": "",
+                    "currency_code": "MXN",
+                    "transaction_card_id": "",
+                    "masked_credit_card": "545195XXXXXX5480",
+                    "processor_id": "6000000000174068248858249493",
+                    "foreign_card": true,
+                    "last_four_digits": "5480",
+                    "email": "senen.rodriguez@outlook.com",
+                    "contact_person": "Senen Rodriguez Maldonado",
+                    "consortium_name": null,
+                    "card_type": "Credit",
+                    "ticket_number": "661740689022346881",
+                    "card_country_code": "EC",
+                    "credential_alias": "CAJITA PRUEBA Branch Mexico",
+                    "processor_bank_name": "0032~BANCO INTERNACIONAL",
+                    "bin_card": "545195",
+                    "ice_value": 0,
+                    "partial_void": false,
+                    "credential_id": "3dc1976fa6da467795754085ab44c9ee"
+                }
+            ],
+            "void_ticket_number": "661740689022346881",
+            "aurus_ticket_number": "519032825060630898",
+            "processor": {
+                "code": "000",
+                "message": "Transacción aprobada"
+            },
+            "recap": null,
+            "approval_code": null
+        },
+        {
+            "acquirer_bank": "Afirme",
+            "amount": {
+                "subtotalIva0": 2000,
+                "iva": 0,
+                "subtotalIva": 0,
+                "ice": 0,
+                "currency": "MXN"
+            },
+            "approval_code": "000000",
+            "approved_transaction_amount": 2000,
+            "bin_card": "545195",
+            "card_holder_name": "Senen Rodrguez",
+            "card_type": "Credit",
+            "constitutional_country": "Mexico",
+            "contact_details": {
+                "document_number": "1234567890",
+                "document_type": "CC",
+                "email": "senen.rodriguez@example.com",
+                "first_name": "Senen",
+                "last_name": "Rodriguez",
+                "phone_number": "+593912345678"
+            },
+            "country": "Mexico",
+            "created": "2025-02-27T20:57:30.000Z",
+            "credential_alias": "CAJITA PRUEBA Branch Mexico",
+            "credential_id": "3dc1976fa6da467795754085ab44c9ee",
+            "currency_code": "MXN",
+            "foreign_card": true,
+            "ice_value": 0,
+            "issuing_bank": "Banco de la Produccion S.A. (PRODUBANCO)",
+            "iva_value": 0,
+            "last_four_digits": "5480",
+            "mcc_code": "1234",
+            "merchant_id": "20000000104925987000",
+            "merchant_name": "CAJITA PRUEBA Branch Mexico",
+            "metadata": {
+                "Referencia": "987654"
+            },
+            "payment_brand": "Mastercard",
+            "plcc": false,
+            "processor_bank_name": "0032~BANCO INTERNACIONAL",
+            "processor_id": "6000000000174068248858249493",
+            "processor_name": "Prosa Processor",
+            "processor_type": "gateway",
+            "public_credential_id": "b570374fa1c246da80a6fa7755b83457",
+            "request_amount": 2000,
+            "response_code": "000",
+            "response_text": "Transaccion aprobada",
+            "send_cvv": true,
+            "subtotal_iva": 0,
+            "subtotal_iva0": 2000,
+            "sync_mode": "online",
+            "ticket_number": "568858211747869762",
+            "transaction_id": "120319335370031039",
+            "transaction_reference": "472d2eae-c559-45eb-9926-22027b44cbf0",
+            "transaction_status": "APPROVAL",
+            "transaction_type": "SALE",
+            "transaction_card_id": "6420c5bd-5a3f-45d2-8ac4-88de7b09958d",
+            "card_country_code": "EC",
+            "card_country": "Ecuador",
+            "original_bin": "54519515",
+            "processor_code": "",
+            "payment_method": "card",
+            "social_reason": "",
+            "merchant_category": "",
+            "tax_id": "",
+            "masked_credit_card": "545195XXXXXX5480",
+            "security": {
+                "ip": "187.190.193.106",
+                "reason_code": "",
+                "user_agent": "PostmanRuntime/7.43.0",
+                "whitelist": false
+            },
+            "string_metadata": "{\"Referencia\":\"987654\"}",
+            "order_details": {
+                "billing_details": {
+                    "address1": "Eloy Alfaro 139 y Catalina Aldaz",
+                    "address2": "centro 123",
+                    "city": "Quito",
+                    "country": "Ecuador",
+                    "name": "John Doe",
+                    "phone": "+593912345678",
+                    "region": "Pichincha"
+                },
+                "shipping_details": {
+                    "address1": "Eloy Alfaro 139 y Catalina Aldaz",
+                    "address2": "centro 123",
+                    "city": "Quito",
+                    "country": "Ecuador",
+                    "name": "John Doe",
+                    "phone": "+593912345678",
+                    "region": "Pichincha"
+                },
+                "site_domain": "example.com"
+            },
+            "product_details": {
+                "product": [
+                    {
+                        "id": "198952AB",
+                        "price": 1000,
+                        "quantity": 1,
+                        "sku": "10101042",
+                        "title": "eBook Digital Services"
+                    },
+                    {
+                        "id": "198953AB",
+                        "price": 1000,
+                        "quantity": 1,
+                        "sku": "004834GQ",
+                        "title": "eBook Virtual Selling"
+                    }
+                ]
+            }
+        },
+        {
+            "acquirer_bank": "Afirme",
+            "amount": {
+                "subtotalIva0": 3000,
+                "iva": 0,
+                "subtotalIva": 0,
+                "ice": 0,
+                "currency": "MXN"
+            },
+            "approval_code": "000000",
+            "approved_transaction_amount": 3000,
+            "bin_card": "545195",
+            "card_holder_name": "Senen Rodrguez",
+            "card_type": "Credit",
+            "constitutional_country": "Mexico",
+            "contact_details": {
+                "document_number": "1234567890",
+                "document_type": "CC",
+                "email": "senen.rodriguez@example.com",
+                "first_name": "Senen",
+                "last_name": "Rodriguez",
+                "phone_number": "+5530586988"
+            },
+            "country": "Mexico",
+            "created": "2025-02-28T15:23:33.000Z",
+            "credential_alias": "CAJITA PRUEBA Branch Mexico",
+            "credential_id": "3dc1976fa6da467795754085ab44c9ee",
+            "currency_code": "MXN",
+            "foreign_card": true,
+            "ice_value": 0,
+            "issuing_bank": "Banco de la Produccion S.A. (PRODUBANCO)",
+            "iva_value": 0,
+            "last_four_digits": "5480",
+            "mcc_code": "1234",
+            "merchant_id": "20000000104925987000",
+            "merchant_name": "CAJITA PRUEBA Branch Mexico",
+            "metadata": {
+                "Referencia": "12345678"
+            },
+            "payment_brand": "Mastercard",
+            "plcc": false,
+            "processor_bank_name": "0032~BANCO INTERNACIONAL",
+            "processor_id": "6000000000174068248858249493",
+            "processor_name": "Prosa Processor",
+            "processor_type": "gateway",
+            "public_credential_id": "b570374fa1c246da80a6fa7755b83457",
+            "request_amount": 3000,
+            "response_code": "000",
+            "response_text": "Transaccion aprobada",
+            "send_cvv": true,
+            "subtotal_iva": 0,
+            "subtotal_iva0": 3000,
+            "sync_mode": "online",
+            "ticket_number": "338091092489058051",
+            "transaction_id": "899400012568207985",
+            "transaction_reference": "2e6586f1-90d2-422c-8370-4f6ec87fada6",
+            "transaction_status": "APPROVAL",
+            "transaction_type": "SALE",
+            "transaction_card_id": "6420c5bd-5a3f-45d2-8ac4-88de7b09958d",
+            "card_country_code": "EC",
+            "card_country": "Ecuador",
+            "original_bin": "54519515",
+            "processor_code": "",
+            "payment_method": "card",
+            "social_reason": "",
+            "merchant_category": "",
+            "tax_id": "",
+            "masked_credit_card": "545195XXXXXX5480",
+            "security": {
+                "ip": "187.190.193.106",
+                "reason_code": "",
+                "user_agent": "PostmanRuntime/7.43.0",
+                "whitelist": false
+            },
+            "string_metadata": "{\"Referencia\":\"12345678\"}",
+            "order_details": {
+                "billing_details": {
+                    "address1": "Eloy Alfaro 139 y Catalina Aldaz",
+                    "address2": "centro 123",
+                    "city": "Quito",
+                    "country": "Ecuador",
+                    "name": "John Doe",
+                    "phone": "+593912345678",
+                    "region": "Pichincha"
+                },
+                "shipping_details": {
+                    "address1": "Eloy Alfaro 139 y Catalina Aldaz",
+                    "address2": "centro 123",
+                    "city": "Quito",
+                    "country": "Ecuador",
+                    "name": "John Doe",
+                    "phone": "+593912345678",
+                    "region": "Pichincha"
+                },
+                "site_domain": "senen.com"
+            },
+            "product_details": {
+                "product": [
+                    {
+                        "id": "198952AB",
+                        "price": 1500,
+                        "quantity": 1,
+                        "sku": "10101042",
+                        "title": "eBook Digital Services"
+                    },
+                    {
+                        "id": "198953AB",
+                        "price": 1500,
+                        "quantity": 1,
+                        "sku": "004834GQ",
+                        "title": "eBook Virtual Selling"
+                    }
+                ]
+            }
+        },
+        {
+            "amount": {
+                "subtotalIva0": 3000,
+                "iva": 0,
+                "subtotalIva": 0,
+                "ice": 0,
+                "currency": "MXN"
+            },
+            "approved_transaction_amount": 0,
+            "bin_card": "545195",
+            "card_holder_name": "Senen Rodrguez",
+            "card_type": "Credit",
+            "constitutional_country": "Mexico",
+            "contact_details": {
+                "document_number": "1234567890",
+                "document_type": "CC",
+                "email": "senen.rodriguez@example.com",
+                "first_name": "Senen",
+                "last_name": "Rodriguez",
+                "phone_number": "+5530586988"
+            },
+            "country": "Mexico",
+            "created": "2025-02-28T15:33:18.000Z",
+            "credential_alias": "CAJITA PRUEBA Branch Mexico",
+            "credential_id": "3dc1976fa6da467795754085ab44c9ee",
+            "currency_code": "MXN",
+            "foreign_card": true,
+            "ice_value": 0,
+            "issuing_bank": "Banco de la Produccion S.A. (PRODUBANCO)",
+            "iva_value": 0,
+            "last_four_digits": "5480",
+            "merchant_id": "20000000104925987000",
+            "merchant_name": "CAJITA PRUEBA Branch Mexico",
+            "metadata": {
+                "Referencia": "12345678"
+            },
+            "payment_brand": "Mastercard",
+            "plcc": false,
+            "processor": {
+                "code": "566",
+                "message": "El token es invalido , o ya fue usado en otra transaccion."
+            },
+            "processor_type": "aggregator_formal",
+            "public_credential_id": "b570374fa1c246da80a6fa7755b83457",
+            "request_amount": 3000,
+            "response_code": "577",
+            "response_text": "El token de la transaccion no es valido",
+            "send_cvv": true,
+            "subtotal_iva": 0,
+            "subtotal_iva0": 3000,
+            "sync_mode": "online",
+            "transaction_id": "1740756798965995112",
+            "transaction_reference": "2e6586f1-90d2-422c-8370-4f6ec87fada6",
+            "transaction_status": "DECLINED",
+            "transaction_type": "SALE",
+            "transaction_card_id": "6420c5bd-5a3f-45d2-8ac4-88de7b09958d",
+            "card_country_code": "EC",
+            "card_country": "Ecuador",
+            "original_bin": "54519515",
+            "processor_code": "577",
+            "payment_method": "card",
+            "social_reason": "",
+            "merchant_category": "",
+            "tax_id": "",
+            "masked_credit_card": "545195XXXXXX5480",
+            "security": {
+                "ip": "187.190.193.106",
+                "reason_code": ""
+            },
+            "string_metadata": "{\"Referencia\":\"12345678\"}",
+            "order_details": {
+                "billing_details": {
+                    "address1": "Eloy Alfaro 139 y Catalina Aldaz",
+                    "address2": "centro 123",
+                    "city": "Quito",
+                    "country": "Ecuador",
+                    "name": "John Doe",
+                    "phone": "+593912345678",
+                    "region": "Pichincha"
+                },
+                "shipping_details": {
+                    "address1": "Eloy Alfaro 139 y Catalina Aldaz",
+                    "address2": "centro 123",
+                    "city": "Quito",
+                    "country": "Ecuador",
+                    "name": "John Doe",
+                    "phone": "+593912345678",
+                    "region": "Pichincha"
+                },
+                "site_domain": "senen.com"
+            },
+            "product_details": {
+                "product": [
+                    {
+                        "id": "198952AB",
+                        "price": 1500,
+                        "quantity": 1,
+                        "sku": "10101042",
+                        "title": "eBook Digital Services"
+                    },
+                    {
+                        "id": "198953AB",
+                        "price": 1500,
+                        "quantity": 1,
+                        "sku": "004834GQ",
+                        "title": "eBook Virtual Selling"
+                    }
+                ]
+            }
+        },
+        {
+            "amount": {
+                "subtotalIva0": 3000,
+                "iva": 0,
+                "subtotalIva": 0,
+                "ice": 0,
+                "currency": "MXN"
+            },
+            "approved_transaction_amount": 0,
+            "bin_card": "545195",
+            "card_holder_name": "Senen Rodrguez",
+            "card_type": "Credit",
+            "constitutional_country": "Mexico",
+            "contact_details": {
+                "document_number": "1234567890",
+                "document_type": "CC",
+                "email": "senen.rodriguez@example.com",
+                "first_name": "Senen",
+                "last_name": "Rodriguez",
+                "phone_number": "+5530586988"
+            },
+            "country": "Mexico",
+            "created": "2025-02-28T15:33:40.000Z",
+            "credential_alias": "CAJITA PRUEBA Branch Mexico",
+            "credential_id": "3dc1976fa6da467795754085ab44c9ee",
+            "currency_code": "MXN",
+            "foreign_card": true,
+            "ice_value": 0,
+            "issuing_bank": "Banco de la Produccion S.A. (PRODUBANCO)",
+            "iva_value": 0,
+            "last_four_digits": "5480",
+            "merchant_id": "20000000104925987000",
+            "merchant_name": "CAJITA PRUEBA Branch Mexico",
+            "metadata": {
+                "Referencia": "12345678"
+            },
+            "payment_brand": "Mastercard",
+            "plcc": false,
+            "processor": {
+                "code": "566",
+                "message": "El token es invalido , o ya fue usado en otra transaccion."
+            },
+            "processor_type": "aggregator_formal",
+            "public_credential_id": "b570374fa1c246da80a6fa7755b83457",
+            "request_amount": 3000,
+            "response_code": "577",
+            "response_text": "El token de la transaccion no es valido",
+            "send_cvv": true,
+            "subtotal_iva": 0,
+            "subtotal_iva0": 3000,
+            "sync_mode": "online",
+            "transaction_id": "1740756820843278157",
+            "transaction_reference": "2e6586f1-90d2-422c-8370-4f6ec87fada6",
+            "transaction_status": "DECLINED",
+            "transaction_type": "SALE",
+            "transaction_card_id": "6420c5bd-5a3f-45d2-8ac4-88de7b09958d",
+            "card_country_code": "EC",
+            "card_country": "Ecuador",
+            "original_bin": "54519515",
+            "processor_code": "577",
+            "payment_method": "card",
+            "social_reason": "",
+            "merchant_category": "",
+            "tax_id": "",
+            "masked_credit_card": "545195XXXXXX5480",
+            "security": {
+                "ip": "187.190.193.106",
+                "reason_code": ""
+            },
+            "string_metadata": "{\"Referencia\":\"12345678\"}",
+            "order_details": {
+                "billing_details": {
+                    "address1": "Eloy Alfaro 139 y Catalina Aldaz",
+                    "address2": "centro 123",
+                    "city": "Quito",
+                    "country": "Ecuador",
+                    "name": "John Doe",
+                    "phone": "+593912345678",
+                    "region": "Pichincha"
+                },
+                "shipping_details": {
+                    "address1": "Eloy Alfaro 139 y Catalina Aldaz",
+                    "address2": "centro 123",
+                    "city": "Quito",
+                    "country": "Ecuador",
+                    "name": "John Doe",
+                    "phone": "+593912345678",
+                    "region": "Pichincha"
+                },
+                "site_domain": "senen.com"
+            },
+            "product_details": {
+                "product": [
+                    {
+                        "id": "198952AB",
+                        "price": 1500,
+                        "quantity": 1,
+                        "sku": "10101042",
+                        "title": "eBook Digital Services"
+                    },
+                    {
+                        "id": "198953AB",
+                        "price": 1500,
+                        "quantity": 1,
+                        "sku": "004834GQ",
+                        "title": "eBook Virtual Selling"
+                    }
+                ]
+            }
+        },
+        {
+            "acquirer_bank": "Afirme",
+            "amount": {
+                "subtotalIva0": 3000,
+                "iva": 0,
+                "subtotalIva": 0,
+                "ice": 0,
+                "currency": "MXN"
+            },
+            "approval_code": "000000",
+            "approved_transaction_amount": 3000,
+            "bin_card": "545195",
+            "card_holder_name": "Senen Rodrguez",
+            "card_type": "Credit",
+            "constitutional_country": "Mexico",
+            "contact_details": {
+                "document_number": "1234567890",
+                "document_type": "CC",
+                "email": "senen.rodriguez@example.com",
+                "first_name": "Senen",
+                "last_name": "Rodriguez",
+                "phone_number": "+5530586988"
+            },
+            "country": "Mexico",
+            "created": "2025-02-28T15:34:07.000Z",
+            "credential_alias": "CAJITA PRUEBA Branch Mexico",
+            "credential_id": "3dc1976fa6da467795754085ab44c9ee",
+            "currency_code": "MXN",
+            "foreign_card": true,
+            "ice_value": 0,
+            "issuing_bank": "Banco de la Produccion S.A. (PRODUBANCO)",
+            "iva_value": 0,
+            "last_four_digits": "5480",
+            "mcc_code": "1234",
+            "merchant_id": "20000000104925987000",
+            "merchant_name": "CAJITA PRUEBA Branch Mexico",
+            "metadata": {
+                "Referencia": "12345678"
+            },
+            "payment_brand": "Mastercard",
+            "plcc": false,
+            "processor_bank_name": "0032~BANCO INTERNACIONAL",
+            "processor_id": "6000000000174068248858249493",
+            "processor_name": "Prosa Processor",
+            "processor_type": "gateway",
+            "public_credential_id": "b570374fa1c246da80a6fa7755b83457",
+            "request_amount": 3000,
+            "response_code": "000",
+            "response_text": "Transaccion aprobada",
+            "send_cvv": true,
+            "subtotal_iva": 0,
+            "subtotal_iva0": 3000,
+            "sync_mode": "online",
+            "ticket_number": "041239870399516230",
+            "transaction_id": "984534993017710078",
+            "transaction_reference": "5251e624-6415-4804-8b85-443c5e2d93af",
+            "transaction_status": "APPROVAL",
+            "transaction_type": "SALE",
+            "transaction_card_id": "6420c5bd-5a3f-45d2-8ac4-88de7b09958d",
+            "card_country_code": "EC",
+            "card_country": "Ecuador",
+            "original_bin": "54519515",
+            "processor_code": "",
+            "payment_method": "card",
+            "social_reason": "",
+            "merchant_category": "",
+            "tax_id": "",
+            "masked_credit_card": "545195XXXXXX5480",
+            "security": {
+                "ip": "187.190.193.106",
+                "reason_code": "",
+                "user_agent": "PostmanRuntime/7.43.0",
+                "whitelist": false
+            },
+            "string_metadata": "{\"Referencia\":\"12345678\"}",
+            "order_details": {
+                "billing_details": {
+                    "address1": "Eloy Alfaro 139 y Catalina Aldaz",
+                    "address2": "centro 123",
+                    "city": "Quito",
+                    "country": "Ecuador",
+                    "name": "John Doe",
+                    "phone": "+593912345678",
+                    "region": "Pichincha"
+                },
+                "shipping_details": {
+                    "address1": "Eloy Alfaro 139 y Catalina Aldaz",
+                    "address2": "centro 123",
+                    "city": "Quito",
+                    "country": "Ecuador",
+                    "name": "John Doe",
+                    "phone": "+593912345678",
+                    "region": "Pichincha"
+                },
+                "site_domain": "senen.com"
+            },
+            "product_details": {
+                "product": [
+                    {
+                        "id": "198952AB",
+                        "price": 1500,
+                        "quantity": 1,
+                        "sku": "10101042",
+                        "title": "eBook Digital Services"
+                    },
+                    {
+                        "id": "198953AB",
+                        "price": 1500,
+                        "quantity": 1,
+                        "sku": "004834GQ",
+                        "title": "eBook Virtual Selling"
+                    }
+                ]
+            }
+        },
+        {
+            "ice_value": 0,
+            "iva_value": 0,
+            "subtotal_iva": 0,
+            "subtotal_iva0": 3000,
+            "approved_transaction_amount": 3000,
+            "bin_card": "545195",
+            "card_country_code": "EC",
+            "card_country": "Ecuador",
+            "card_holder_name": "Senen Rodrguez",
+            "card_type": "Credit",
+            "consortium_name": null,
+            "contact_person": "Senen Rodriguez Maldonado",
+            "country": "Mexico",
+            "created": "2025-02-28T15:39:24.778Z",
+            "credential_alias": "CAJITA PRUEBA Branch Mexico",
+            "credential_id": "3dc1976fa6da467795754085ab44c9ee",
+            "credential_metadata": null,
+            "currency_code": "MXN",
+            "email": "senen.rodriguez@outlook.com",
+            "foreign_card": true,
+            "last_four_digits": "5480",
+            "mcc_code": "1234",
+            "merchant_id": "20000000104925987000",
+            "merchant_name": "CAJITA PRUEBA Branch Mexico",
+            "metadata": {
+                "Referencia": "12345678"
+            },
+            "nit": "PRUEBA123457",
+            "partial_void": false,
+            "payment_brand": "Mastercard",
+            "processor_bank_name": "0032~BANCO INTERNACIONAL",
+            "processor_id": "6000000000174068248858249493",
+            "processor_merchant_id": "7133263",
+            "processor_name": "Prosa Processor",
+            "processor_type": "gateway",
+            "public_credential_id": "b570374fa1c246da80a6fa7755b83457",
+            "request_amount": 3000,
+            "response_code": "000",
+            "response_text": "Transacción aprobada",
+            "sale_approval_code": "000000",
+            "sale_ticket_number": "041239870399516230",
+            "sale_transaction_type": "SALE",
+            "social_reason": null,
+            "sync_mode": "online",
+            "tax_id": null,
+            "terminal_id": "20390058",
+            "ticket_number": "661740757164440133",
+            "transaction_id": "1740757164439992961",
+            "transaction_reference": "01a281a9-75c5-4870-b537-0a041a75765d",
+            "transaction_status": "INITIALIZED",
+            "transaction_type": "VOID",
+            "unique_code": null,
+            "visibility": "visible",
+            "payment_method": "card",
+            "merchant_category": "",
+            "masked_credit_card": "545195XXXXXX5480",
+            "transaction_card_id": ""
+        }
+    ]
+}
