@@ -1,1 +1,35 @@
-{"details":\{"amount":\{"subtotalIva":0,"subtotalIva0":3000,"ice":0,"iva":0,"currency":"MXN"\},"approvalCode":"000000","approvedTransactionAmount":3000,"binInfo":\{"bank":"Banco de la Produccion S.A. (PRODUBANCO)","binCard":"545195","cardCountry":"Ecuador","lastFourDigits":"5480","type":"credit"\},"cardHolderName":"Senen Rodrguez","created":1740756847000,"merchantId":"20000000104925987000","merchantName":"CAJITA PRUEBA Branch Mexico","paymentBrand":"Mastercard","processorBankName":"0032~BANCO INTERNACIONAL","requestAmount":3000,"responseCode":"000","responseText":"Transacci\'f3n aprobada","transactionId":"984534993017710078","transactionReference":"5251e624-6415-4804-8b85-443c5e2d93af","transactionStatus":"APPROVAL","transactionType":"SALE"\},"ticketNumber":"041239870399516230","transactionReference":"5251e624-6415-4804-8b85-443c5e2d93af"\}}
+{
+    "details": {
+        "amount": {
+            "subtotalIva": 0,
+            "subtotalIva0": 3000,
+            "ice": 0,
+            "iva": 0,
+            "currency": "MXN"
+        },
+        "approvalCode": "000000",
+        "approvedTransactionAmount": 3000,
+        "binInfo": {
+            "bank": "Banco de la Produccion S.A. (PRODUBANCO)",
+            "binCard": "545195",
+            "cardCountry": "Ecuador",
+            "lastFourDigits": "5480",
+            "type": "credit"
+        },
+        "cardHolderName": "Senen Rodrguez",
+        "created": 1740756847000,
+        "merchantId": "20000000104925987000",
+        "merchantName": "CAJITA PRUEBA Branch Mexico",
+        "paymentBrand": "Mastercard",
+        "processorBankName": "0032~BANCO INTERNACIONAL",
+        "requestAmount": 3000,
+        "responseCode": "000",
+        "responseText": "Transacción aprobada",
+        "transactionId": "984534993017710078",
+        "transactionReference": "5251e624-6415-4804-8b85-443c5e2d93af",
+        "transactionStatus": "APPROVAL",
+        "transactionType": "SALE"
+    },
+    "ticketNumber": "041239870399516230",
+    "transactionReference": "5251e624-6415-4804-8b85-443c5e2d93af"
+}
